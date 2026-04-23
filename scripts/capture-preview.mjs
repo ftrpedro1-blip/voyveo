@@ -1,11 +1,17 @@
 import { mkdir } from "node:fs/promises";
 import { pathToFileURL } from "node:url";
+import { createPreviewServer } from "./dev-server.mjs";
 
 const playwrightPath = "C:/Users/ftrpe/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright/index.mjs";
 const { chromium } = await import(pathToFileURL(playwrightPath).href);
 const screenshotDir = "artifacts/qa";
 
 await mkdir(screenshotDir, { recursive: true });
+
+const server = createPreviewServer();
+await new Promise((resolve) => {
+  server.listen(4173, "127.0.0.1", resolve);
+});
 
 const browser = await chromium.launch({
   executablePath: "C:/Program Files/Google/Chrome/Application/chrome.exe",
@@ -123,10 +129,11 @@ for (const viewport of viewports) {
 }
 
 await browser.close();
+await new Promise((resolve) => server.close(resolve));
 
 if (issues.length) {
   throw new Error(`QA failed:\n${issues.join("\n")}`);
 }
 
-console.log("Captured Voy Veo mobile and desktop screenshots");
+console.log("Captured VoyVeo mobile and desktop screenshots");
 console.log("QA passed on 320, 360, 390, 430 and 1280px widths");
