@@ -1,0 +1,16 @@
+node_modules/
+.next/
+out/
+.vercel/
+
+.env
+.env*.local
+
+cloudflared.exe
+cloudflared*.log
+preview-server*.log
+*.log
+
+artifacts/
+Thumbs.db
+.DS_Store
