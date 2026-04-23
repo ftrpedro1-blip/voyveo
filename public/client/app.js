@@ -39,19 +39,34 @@ function imageFallback() {
   return '<div class="imageFallback logoPlaceholder"><span><i></i><b></b></span></div>';
 }
 
-function imageBlock(url, label = "Voy Veo", priority = false) {
+function normalizeImageUrl(url) {
+  if (!url) return "";
+  try {
+    const parsed = new URL(url);
+    parsed.pathname = parsed.pathname
+      .split("/")
+      .map((segment) => (segment ? encodeURIComponent(decodeURIComponent(segment)) : segment))
+      .join("/");
+    return parsed.toString();
+  } catch {
+    return url;
+  }
+}
+
+function imageBlock(url, label = "VoyVeo", priority = false) {
   if (!url) return `<div class="dataPlaceholder logoPlaceholder"><span><i></i><b></b></span></div>`;
+  const src = normalizeImageUrl(url);
   return `
     <div class="dataImage">
       ${imageFallback()}
       <img
-        src="${escapeHtml(url)}"
+        src="${escapeHtml(src)}"
         alt="${escapeHtml(label)}"
         loading="${priority ? "eager" : "lazy"}"
         fetchpriority="${priority ? "high" : "auto"}"
         decoding="async"
         onload="this.parentElement.classList.add('imageLoaded')"
-        onerror="this.parentElement.classList.add('imageFailed')"
+        onerror="this.parentElement.classList.add('imageFallbackOnly'); this.remove()"
       >
     </div>`;
 }
@@ -123,6 +138,10 @@ function formatDate(value) {
   return `${day}/${month}/${year}`;
 }
 
+function formatReviewDate(value) {
+  return value ? formatDate(value) : "Pendiente";
+}
+
 function formatDateRange(exhibition) {
   if (exhibition.date_text) return exhibition.date_text;
   if (!exhibition.start_date && !exhibition.end_date) return "Fechas por revisar";
@@ -135,13 +154,20 @@ function periodLabel(period) {
 }
 
 function todayHours(gallery) {
+  if (!gallery || gallery.hours_status === "verify" || gallery.hours === "Verificar antes de visitar") {
+    return {
+      state: "unknown",
+      status: "Verificar",
+      todayLabel: "Verificar antes de visitar"
+    };
+  }
   const weekly = gallery?.weekly_hours;
   const clock = buenosAiresClock();
   if (!weekly || !clock.dayKey || !Object.keys(weekly).length || weekly[clock.dayKey] === null || typeof weekly[clock.dayKey] === "undefined") {
     return {
       state: "unknown",
       status: "Por confirmar",
-      todayLabel: "Horario sujeto a confirmación"
+      todayLabel: gallery?.hours || "Horario sujeto a confirmacion"
     };
   }
   const periods = Array.isArray(weekly[clock.dayKey]) ? weekly[clock.dayKey] : [];
@@ -173,6 +199,12 @@ function todayHoursMarkup(gallery) {
 }
 
 function weeklyHoursMarkup(gallery) {
+  if (gallery?.hours_status === "verify" || gallery?.hours === "Verificar antes de visitar") {
+    return `
+      <div class="weeklyHours">
+        <span><b>Horario</b><em>Verificar antes de visitar</em></span>
+      </div>`;
+  }
   const weekly = gallery?.weekly_hours;
   if (!weekly || !Object.keys(weekly).length) return "";
   return `
@@ -185,6 +217,26 @@ function weeklyHoursMarkup(gallery) {
         })
         .join("")}
     </div>`;
+}
+
+function hoursMetaMarkup(gallery) {
+  if (!gallery) return "";
+  return `
+    <div>
+      <span>Horario general</span>
+      <strong>${escapeHtml(gallery.hours || "Verificar antes de visitar")}</strong>
+    </div>
+    <div>
+      <span>Ultima verificacion</span>
+      <strong>${escapeHtml(formatReviewDate(gallery.hours_last_checked_at || gallery.fecha_ultima_revision || gallery.last_checked_at))}</strong>
+    </div>`;
+}
+
+function sourceField(label, value, href = "") {
+  if (href) {
+    return `<a href="${escapeHtml(href)}" target="_blank" rel="noreferrer"><strong>${escapeHtml(label)}</strong>${escapeHtml(value || href)}</a>`;
+  }
+  return `<span><strong>${escapeHtml(label)}</strong>${escapeHtml(value || "Pendiente")}</span>`;
 }
 
 function readPinnedGalleries() {
@@ -262,16 +314,49 @@ function visibleExhibitions(status = state.agendaStatus) {
 }
 
 function featuredExhibitions() {
-  return [...state.db.exhibitions]
+  const editorialOrder = new Map([
+    ["cassia-house", 0],
+    ["nora-fisch", 1],
+    ["barro", 2],
+    ["mnba", 3],
+    ["moderno", 4],
+    ["sivori", 5],
+    ["jose-hernandez", 6],
+    ["gachi-prieto", 7],
+    ["piedras", 8],
+    ["ruth-benzacar", 9],
+    ["hache", 10]
+  ]);
+  const ranked = [...state.db.exhibitions]
     .filter(isPublicExhibition)
+    .filter((record) => ["current", "upcoming"].includes(statusFor(record)))
     .sort((a, b) => {
-      const pastDelta = Number(statusFor(a) === "past") - Number(statusFor(b) === "past");
-      const cassiaDelta = Number(Boolean(galleryFor(b)?.is_house_gallery)) - Number(Boolean(galleryFor(a)?.is_house_gallery));
+      const galleryA = galleryFor(a);
+      const galleryB = galleryFor(b);
+      const editorialDelta = (editorialOrder.get(galleryA?.id) ?? 999) - (editorialOrder.get(galleryB?.id) ?? 999);
+      const hasImageDelta = Number(Boolean(exhibitionImage(b))) - Number(Boolean(exhibitionImage(a)));
+      const priority = (record) => {
+        const status = statusFor(record);
+        if (status === "current") return 3;
+        if (status === "upcoming") return 2;
+        return 1;
+      };
+      const priorityDelta = priority(b) - priority(a);
+      const cassiaDelta = Number(Boolean(galleryB?.is_house_gallery)) - Number(Boolean(galleryA?.is_house_gallery));
+      const galleryDelta = Number(galleryB?.institution_type === "gallery") - Number(galleryA?.institution_type === "gallery");
       const dateA = a.end_date || a.start_date || "";
       const dateB = b.end_date || b.start_date || "";
-      return pastDelta || cassiaDelta || dateB.localeCompare(dateA) || (b.featured_rank || 0) - (a.featured_rank || 0);
-    })
-    .slice(0, 5);
+      return cassiaDelta || editorialDelta || hasImageDelta || priorityDelta || galleryDelta || (b.featured_rank || 0) - (a.featured_rank || 0) || dateB.localeCompare(dateA);
+    });
+  const seenGalleries = new Set();
+  const curated = [];
+  for (const exhibition of ranked) {
+    if (seenGalleries.has(exhibition.gallery_id)) continue;
+    curated.push(exhibition);
+    seenGalleries.add(exhibition.gallery_id);
+    if (curated.length === 5) break;
+  }
+  return curated;
 }
 
 function currentExhibitionForGallery(gallery) {
@@ -491,7 +576,7 @@ function renderGallery(slug) {
   const exhibition = currentExhibitionForGallery(gallery);
   app.innerHTML = `
     <section class="detailHeader">
-      ${imageBlock(gallery.image_url, gallery.name, true)}
+      ${imageBlock(exhibition ? exhibitionImage(exhibition) : gallery.image_url, gallery.name, true)}
       <span class="eyebrow">${institutionLabel(gallery)}</span>
       <h1>${escapeHtml(gallery.name)}</h1>
       <p>${escapeHtml(gallery.address || "Dirección por revisar")}</p>
@@ -499,6 +584,7 @@ function renderGallery(slug) {
       ${weeklyHoursMarkup(gallery)}
     </section>
     <section class="detailInfo">
+      ${hoursMetaMarkup(gallery)}
       <div>
         <span>Web oficial</span>
         <p>${gallery.website ? `<a href="${escapeHtml(gallery.website)}" target="_blank" rel="noreferrer">${escapeHtml(gallery.website)}</a>` : "Pendiente"}</p>
@@ -554,6 +640,8 @@ function renderExhibition(slug) {
         <span>Dirección</span>
         <strong>${escapeHtml(gallery?.address || "Por revisar")}</strong>
       </div>
+      ${gallery ? `<div><span>Horario de hoy</span>${todayHoursMarkup(gallery)}${weeklyHoursMarkup(gallery)}</div>` : ""}
+      ${gallery ? hoursMetaMarkup(gallery) : ""}
       <div>
         <span>Sobre la exhibición</span>
         <p>${escapeHtml(exhibition.description || "Texto pendiente de revisión editorial.")}</p>
@@ -570,6 +658,8 @@ function renderExhibition(slug) {
 }
 
 function sourceSummary(record) {
+  const hoursLastChecked = record.hours_last_checked_at || record.fecha_ultima_revision || record.last_checked_at || "";
+  const hasHours = Boolean(record.hours || record.hours_status || record.hours_source_selected || record.hours_website_text || record.hours_google_maps_text || record.hours_instagram_text || record.hours_facebook_text || record.hours_guide_text);
   return `
     <div class="sourcePanel">
       <span><strong>Fecha última revisión</strong>${escapeHtml(record.fecha_ultima_revision || record.last_checked_at || "Pendiente")}</span>
@@ -578,8 +668,17 @@ function sourceSummary(record) {
       <span><strong>Conflicto detectado</strong>${record.conflicto_detectado ? "Sí" : "No"}</span>
       <span><strong>Confianza</strong>${escapeHtml(record.confidence_score ?? 0)}</span>
       <span><strong>Publicado</strong>${escapeHtml(record.published_summary || "Pendiente")}</span>
-      <a href="${escapeHtml(record.source_website_url || "#")}" target="_blank" rel="noreferrer"><strong>Web oficial</strong>${escapeHtml(record.source_website_url || "Pendiente")}</a>
-      <a href="${escapeHtml(record.source_instagram_url || "#")}" target="_blank" rel="noreferrer"><strong>Instagram</strong>${escapeHtml(record.source_instagram_url || "Pendiente")}</a>
+      ${hasHours ? `<span><strong>Horario publicado</strong>${escapeHtml(record.hours || "Verificar antes de visitar")}</span>` : ""}
+      ${hasHours ? `<span><strong>Fuente horario</strong>${escapeHtml(record.hours_source_selected || "Pendiente")}</span>` : ""}
+      ${hasHours ? `<span><strong>Última verificación horario</strong>${escapeHtml(formatReviewDate(hoursLastChecked))}</span>` : ""}
+      ${hasHours ? `<span><strong>Conflicto horario</strong>${record.hours_conflict ? "Sí" : "No"}</span>` : ""}
+      ${hasHours && record.hours_website_text ? `<span><strong>Horario web</strong>${escapeHtml(record.hours_website_text)}</span>` : ""}
+      ${hasHours && record.hours_google_maps_text ? `<span><strong>Horario Google Maps</strong>${escapeHtml(record.hours_google_maps_text)}</span>` : ""}
+      ${hasHours && record.hours_instagram_text ? `<span><strong>Horario Instagram</strong>${escapeHtml(record.hours_instagram_text)}</span>` : ""}
+      ${hasHours && record.hours_facebook_text ? `<span><strong>Horario Facebook</strong>${escapeHtml(record.hours_facebook_text)}</span>` : ""}
+      ${hasHours && record.hours_guide_text ? `<span><strong>Horario guía cultural</strong>${escapeHtml(record.hours_guide_text)}</span>` : ""}
+      ${sourceField("Web oficial", record.source_website_url, record.source_website_url)}
+      ${sourceField("Instagram", record.source_instagram_url, record.source_instagram_url)}
     </div>`;
 }
 
