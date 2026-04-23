@@ -1,18 +1,18 @@
 :root {
-  --black: #111111;
-  --stone: #cdbda4;
-  --cream: #f7f4ee;
-  --warm: #efebe3;
-  --gray: #e9e6e1;
-  --ink: #171717;
-  --muted: #6f6b64;
-  --line: rgba(17, 17, 17, 0.08);
-  --glass: rgba(247, 244, 238, 0.76);
-  --solid: #fffdf8;
-  --shadow: 0 24px 70px rgba(17, 17, 17, 0.13);
-  --soft-shadow: 0 12px 34px rgba(17, 17, 17, 0.08);
-  --radius-xl: 32px;
-  --radius-lg: 24px;
+  --black: #1e1e1e;
+  --stone: #cbb79c;
+  --cream: #f3efea;
+  --warm: #fafaf9;
+  --gray: #6b6b6b;
+  --ink: #1e1e1e;
+  --muted: #6b6b6b;
+  --line: rgba(30, 30, 30, 0.08);
+  --glass: rgba(250, 250, 249, 0.78);
+  --solid: #fdfbf8;
+  --shadow: 0 28px 72px rgba(30, 30, 30, 0.1);
+  --soft-shadow: 0 12px 34px rgba(30, 30, 30, 0.06);
+  --radius-xl: 30px;
+  --radius-lg: 22px;
   --radius-md: 18px;
   color-scheme: light;
 }
@@ -29,12 +29,13 @@ body {
 
 body {
   background:
-    radial-gradient(circle at 18% 4%, rgba(255, 255, 255, 0.78), transparent 30%),
-    radial-gradient(circle at 86% 0%, rgba(205, 189, 164, 0.26), transparent 28%),
+    radial-gradient(circle at 18% 4%, rgba(255, 255, 255, 0.88), transparent 30%),
+    radial-gradient(circle at 86% 0%, rgba(203, 183, 156, 0.14), transparent 28%),
     var(--warm);
   color: var(--ink);
-  font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", sans-serif;
+  font-family: "General Sans", Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", sans-serif;
   -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
 
 button,
@@ -54,7 +55,7 @@ svg {
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  stroke-width: 1.85;
+  stroke-width: 1.7;
   width: 20px;
 }
 
@@ -64,19 +65,19 @@ a {
 }
 
 .ambient {
-  background: rgba(255, 255, 255, 0.22);
+  background: rgba(243, 239, 234, 0.7);
   border-radius: 999px;
-  filter: blur(3px);
-  height: 340px;
+  filter: blur(12px);
+  height: 320px;
   left: 50%;
   position: fixed;
-  top: 5vh;
+  top: 2vh;
   transform: translateX(-50%);
-  width: min(720px, 86vw);
+  width: min(760px, 92vw);
 }
 
 .device {
-  background: var(--cream);
+  background: linear-gradient(180deg, #fafaf9 0%, #f7f3ee 100%);
   margin: 0 auto;
   max-width: 520px;
   min-height: 100svh;
@@ -230,7 +231,9 @@ a {
 
 .imageFallback {
   align-items: center;
-  background: linear-gradient(145deg, #efe9df, #d7c7ae);
+  background:
+    radial-gradient(circle at 22% 18%, rgba(255, 255, 255, 0.88), transparent 22%),
+    linear-gradient(180deg, #f5f1eb 0%, #ece3d7 100%);
   display: flex;
   height: 100%;
   justify-content: center;
@@ -240,25 +243,28 @@ a {
 }
 
 .logoPlaceholder span {
-  background: rgba(17, 17, 17, 0.9);
-  border-radius: 28px;
-  height: 86px;
+  background: rgba(250, 250, 249, 0.92);
+  border: 1px solid rgba(30, 30, 30, 0.04);
+  border-radius: 22px;
+  box-shadow: 0 10px 26px rgba(30, 30, 30, 0.05);
+  height: 58px;
   position: relative;
-  width: 86px;
+  width: 58px;
 }
 
 .logoPlaceholder i {
-  height: 56px;
-  left: 28px;
-  top: 18px;
-  width: 13px;
+  background: rgba(30, 30, 30, 0.88);
+  height: 36px;
+  left: 20px;
+  top: 11px;
+  width: 9px;
 }
 
 .logoPlaceholder b {
-  height: 20px;
-  right: 18px;
-  top: 17px;
-  width: 20px;
+  height: 13px;
+  right: 10px;
+  top: 10px;
+  width: 13px;
 }
 
 .showRow > .dataPlaceholder,
@@ -810,7 +816,7 @@ body[data-screen="admin"] .tabBar {
   display: block;
   height: 100%;
   inset: 0;
-  object-fit: contain;
+  object-fit: cover;
   position: absolute;
   transition: filter 300ms ease, transform 300ms ease;
   width: 100%;
@@ -827,11 +833,13 @@ body[data-screen="admin"] .tabBar {
   transform: none;
 }
 
-.dataImage.imageFailed img {
+.dataImage.imageFailed img,
+.dataImage.imageFallbackOnly img {
   display: none;
 }
 
-.dataImage.imageFailed .imageFallback {
+.dataImage.imageFailed .imageFallback,
+.dataImage.imageFallbackOnly .imageFallback {
   opacity: 1;
 }
 
@@ -839,7 +847,7 @@ body[data-screen="admin"] .tabBar {
   opacity: 1;
 }
 
-.dataImage:not(.imageFailed) .imageFallback {
+.dataImage:not(.imageFailed):not(.imageFallbackOnly) .imageFallback {
   opacity: 1;
 }
 
@@ -1315,28 +1323,29 @@ body[data-has-action="true"] .sectionPill svg {
 }
 
 .showCard > .dataImage img {
-  object-fit: contain;
+  object-fit: cover;
 }
 
 .detailHeader > .dataImage img {
-  object-fit: contain;
+  object-fit: cover;
 }
 
-.dataImage.imageLoaded:not(.imageFailed) .imageFallback {
+.dataImage.imageLoaded:not(.imageFailed):not(.imageFallbackOnly) .imageFallback {
   opacity: 0;
 }
 
-.dataImage.imageLoaded:not(.imageFailed) img {
+.dataImage.imageLoaded:not(.imageFailed):not(.imageFallbackOnly) img {
   opacity: 1;
 }
 
-.dataImage.imageFailed img {
+.dataImage.imageFailed img,
+.dataImage.imageFallbackOnly img {
   opacity: 0;
 }
 
 .showContent {
   gap: 18px;
-  padding: 18px;
+  padding: 18px 18px 20px;
 }
 
 .showContent h2 {
@@ -1619,6 +1628,10 @@ body[data-screen="list"] .pinButton svg {
   margin-top: 4px;
 }
 
+.detailInfo .todayHours {
+  margin-top: 2px;
+}
+
 .detailInfo .todayHours span,
 .detailInfo .weeklyHours span {
   text-transform: none;
@@ -1654,5 +1667,368 @@ body[data-screen="list"] .pinButton svg {
   .locationPill span,
   .sectionPill span {
     font-size: 11px;
+  }
+}
+
+@media (max-width: 330px) {
+  .appHeader {
+    gap: 6px;
+    grid-template-columns: minmax(82px, 1fr) auto minmax(64px, auto);
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+  .brandPill {
+    gap: 6px;
+  }
+
+  .brandPill .brandMark {
+    height: 30px;
+    width: 30px;
+  }
+
+  .brandPill strong {
+    font-size: 16px;
+  }
+
+  .locationPill,
+  .sectionPill {
+    min-height: 34px;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+  .locationPill span,
+  .sectionPill span {
+    font-size: 10px;
+  }
+
+  body[data-has-action="true"] .sectionPill {
+    padding-left: 7px;
+    padding-right: 8px;
+  }
+}
+
+/* Visual language refresh */
+
+.brandMark,
+.brandGlyph {
+  display: block;
+}
+
+.brandMark {
+  background: transparent;
+  border-radius: 0;
+  flex: 0 0 auto;
+  height: 26px;
+  overflow: visible;
+  position: relative;
+  width: 44px;
+}
+
+.brandMark i,
+.brandMark b {
+  display: none;
+}
+
+.brandGlyph {
+  height: 100%;
+  width: 100%;
+}
+
+.logoPlaceholder span {
+  background: linear-gradient(180deg, #f5f0ea 0%, #f1ebe3 100%);
+  border: 1px solid rgba(30, 30, 30, 0.05);
+  border-radius: 24px;
+  box-shadow: 0 14px 34px rgba(30, 30, 30, 0.08);
+}
+
+.logoPlaceholder i {
+  background: var(--black);
+  border-radius: 999px;
+  transform: rotate(-32deg);
+}
+
+.logoPlaceholder b {
+  background: var(--stone);
+}
+
+.appHeader {
+  backdrop-filter: blur(18px);
+  background: rgba(250, 250, 249, 0.84);
+  border-bottom: 1px solid rgba(30, 30, 30, 0.06);
+  gap: 10px;
+  min-height: calc(74px + env(safe-area-inset-top));
+  padding: calc(11px + env(safe-area-inset-top)) 16px 11px;
+}
+
+.brandPill {
+  gap: 10px;
+}
+
+.brandPill strong {
+  font-family: "General Sans", Inter, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+
+.locationPill,
+.sectionPill {
+  background: rgba(250, 250, 249, 0.78);
+  border: 1px solid rgba(30, 30, 30, 0.07);
+  box-shadow: 0 10px 24px rgba(30, 30, 30, 0.045);
+}
+
+.locationPill span,
+.sectionPill span {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.sectionPill {
+  padding-inline: 13px;
+}
+
+body[data-has-action="true"] .sectionPill {
+  background: var(--black);
+  box-shadow: 0 10px 26px rgba(30, 30, 30, 0.12);
+}
+
+.showCard,
+.showRow,
+.mapOverlay,
+.detailInfo,
+.sourcePanel,
+.recordForm,
+.adminPicker button {
+  border-color: rgba(30, 30, 30, 0.05);
+  box-shadow: 0 14px 34px rgba(30, 30, 30, 0.06);
+}
+
+.showCard {
+  background: rgba(253, 251, 248, 0.92);
+}
+
+.showCard > .dataPlaceholder,
+.showCard > .dataImage,
+.showRow > .dataPlaceholder,
+.showRow > .dataImage,
+.mapOverlay > .dataPlaceholder,
+.mapOverlay > .dataImage {
+  background:
+    radial-gradient(circle at 22% 18%, rgba(255, 255, 255, 0.86), transparent 20%),
+    linear-gradient(180deg, #f4eee7 0%, #e8dccd 100%);
+}
+
+.showContent,
+.detailInfo,
+.recordForm,
+.sourcePanel {
+  background: rgba(253, 251, 248, 0.7);
+}
+
+.showContent h2,
+.showRow h3,
+.mapOverlay h2,
+.recordForm h2,
+.adminHero h1,
+.detailHeader h1,
+.leafletPopup strong {
+  font-family: "General Sans", Inter, sans-serif;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.showContent h2 {
+  font-size: 24px;
+  line-height: 1.08;
+}
+
+.showRow h3 {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.showContent p,
+.showContent small,
+.showRow p,
+.showRow small,
+.detailHeader p,
+.detailHeader small,
+.mapOverlay p,
+.mapOverlay small,
+.sourcePanel span,
+.sourcePanel a,
+.editForm label,
+.detailInfo strong,
+.detailInfo p {
+  color: var(--muted);
+}
+
+.eyebrow,
+.detailInfo span,
+.todayHours span,
+.weeklyHours b,
+.sectionPill span {
+  letter-spacing: 0.01em;
+}
+
+.tabBar {
+  background: rgba(250, 250, 249, 0.8);
+  border: 1px solid rgba(30, 30, 30, 0.06);
+  border-radius: 24px;
+  box-shadow: 0 16px 40px rgba(30, 30, 30, 0.1);
+  min-height: 62px;
+}
+
+.tabBar button {
+  border-radius: 20px;
+  font-size: 11px;
+  font-weight: 600;
+  gap: 5px;
+}
+
+.tabBar button.active {
+  background: var(--black);
+  box-shadow: 0 12px 24px rgba(30, 30, 30, 0.14);
+}
+
+.segmented,
+.typeFilter {
+  background: rgba(250, 250, 249, 0.82);
+  border-color: rgba(30, 30, 30, 0.05);
+  box-shadow: 0 10px 24px rgba(30, 30, 30, 0.05);
+}
+
+.segmented button,
+.typeFilter button {
+  font-weight: 600;
+}
+
+.pinButton {
+  color: rgba(30, 30, 30, 0.34);
+}
+
+.pinButton.active {
+  background: rgba(203, 183, 156, 0.22);
+  color: var(--black);
+}
+
+.mapScene {
+  border-radius: 26px;
+  margin: 0 14px;
+}
+
+.mapTint {
+  background:
+    linear-gradient(180deg, rgba(243, 239, 234, 0.18), rgba(250, 250, 249, 0.26)),
+    rgba(203, 183, 156, 0.08);
+}
+
+.leaflet-tile-pane {
+  filter: grayscale(1) sepia(0.2) saturate(0.48) hue-rotate(330deg) brightness(1.08) contrast(0.8);
+}
+
+.vvMarker span {
+  background: #faf7f2;
+  border: 2px solid var(--black);
+  border-radius: 18px 18px 18px 5px;
+  box-shadow: 0 14px 30px rgba(30, 30, 30, 0.16);
+  height: 32px;
+  margin: 6px;
+  width: 32px;
+}
+
+.vvMarker span::after {
+  background: var(--stone);
+  height: 10px;
+  margin: 7px;
+  width: 10px;
+}
+
+.vvMarker.house span {
+  background: var(--black);
+  border-color: var(--black);
+}
+
+.vvMarker.house span::after {
+  background: var(--stone);
+}
+
+.vvMarker.selected span {
+  background: var(--stone);
+  border-color: var(--stone);
+}
+
+.vvMarker.selected span::after {
+  background: var(--black);
+}
+
+.vvMarker.museum span {
+  background: transparent;
+  border-color: rgba(107, 107, 107, 0.55);
+}
+
+.vvMarker.museum span::after {
+  background: rgba(107, 107, 107, 0.55);
+}
+
+.leaflet-popup-content-wrapper,
+.leaflet-popup-tip,
+.mapOverlay {
+  background: rgba(253, 251, 248, 0.92);
+}
+
+.leafletPopup strong {
+  font-size: 17px;
+}
+
+.mapOverlay {
+  border: 1px solid rgba(30, 30, 30, 0.05);
+  border-radius: 26px;
+  padding: 11px;
+}
+
+.mapOverlayAction,
+.linkGrid a,
+.adminActions button,
+.editForm button {
+  background: var(--black);
+  color: var(--warm);
+  font-weight: 600;
+}
+
+.adminHero {
+  background: linear-gradient(180deg, #232323 0%, #1e1e1e 100%);
+}
+
+.adminHero p {
+  color: rgba(255, 255, 255, 0.62);
+}
+
+.detailHeader > .dataImage,
+.detailHeader > .dataPlaceholder {
+  background:
+    radial-gradient(circle at 22% 18%, rgba(255, 255, 255, 0.86), transparent 20%),
+    linear-gradient(180deg, #f4eee7 0%, #e8dccd 100%);
+}
+
+.detailHeader h1 {
+  font-size: clamp(32px, 8.5vw, 46px);
+}
+
+.todayHours,
+.weeklyHours span {
+  border-color: rgba(30, 30, 30, 0.06);
+}
+
+@media (max-width: 390px) {
+  .brandMark {
+    width: 38px;
+  }
+
+  .brandPill strong {
+    font-size: 18px;
   }
 }
