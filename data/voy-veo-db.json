@@ -16,52 +16,22 @@
       "instagram": "",
       "description": "Galería de arte contemporáneo con un programa de exhibiciones, eventos y proyectos curatoriales en Recoleta.",
       "image_url": "https://d1a9qnv764bsoo.cloudfront.net/stores/005/757/666/rte/1212312312313.png",
-      "hours": "Lun a Mar, Jue a Dom 15:00–20:00",
+      "hours": "Horario sujeto a confirmación",
       "weekly_hours": {
-        "monday": [
-          {
-            "open": "15:00",
-            "close": "20:00"
-          }
-        ],
-        "tuesday": [
-          {
-            "open": "15:00",
-            "close": "20:00"
-          }
-        ],
-        "wednesday": [],
-        "thursday": [
-          {
-            "open": "15:00",
-            "close": "20:00"
-          }
-        ],
-        "friday": [
-          {
-            "open": "15:00",
-            "close": "20:00"
-          }
-        ],
-        "saturday": [
-          {
-            "open": "15:00",
-            "close": "20:00"
-          }
-        ],
-        "sunday": [
-          {
-            "open": "15:00",
-            "close": "20:00"
-          }
-        ]
+        "monday": null,
+        "tuesday": null,
+        "wednesday": null,
+        "thursday": null,
+        "friday": null,
+        "saturday": null,
+        "sunday": null
       },
       "public_visible": true,
       "public_visibility_status": "publicada",
       "public_visibility_notes": [],
       "source_website_url": "https://www.cassiahouseart.com/us/exhibitions/",
       "source_instagram_url": "",
-      "last_checked_at": "2026-04-23",
+      "last_checked_at": "2026-04-24",
       "confidence_score": 0.93,
       "needs_review": false,
       "review_notes": [
@@ -72,20 +42,16 @@
       "published_summary": "Cassia House aparece primera entre galerías privadas, con una sola exhibición vigente para no sobre-representarla.",
       "fuente_exhibicion": "web oficial",
       "fuente_imagen": "web oficial",
-      "fecha_ultima_revision": "2026-04-23",
+      "fecha_ultima_revision": "2026-04-24",
       "conflicto_detectado": false,
       "image_source_selected": "website",
-      "hours_source_selected": "web oficial + guía cultural",
-      "hours_last_checked_at": "2026-04-23",
-      "hours_website_text": "LUN - MAR, JUE - DOM | 15 - 20hs",
+      "hours_source_selected": "web oficial",
+      "hours_last_checked_at": "2026-04-24",
+      "hours_website_text": "Horario sujeto a confirmación",
       "hours_instagram_text": "",
       "hours_google_maps_text": "",
       "hours_conflict": false,
-      "hours_review_notes": [],
-      "hours_status": "verified",
-      "hours_facebook_text": "",
-      "hours_guide_text": "Lunes, Martes y Jueves a Domingo de 15 a 20 hs.",
-      "hours_verified_sources_count": 2
+      "hours_review_notes": []
     },
     {
       "id": "hache",
@@ -103,7 +69,7 @@
       "instagram": "https://www.instagram.com/hachegaleria/",
       "description": "Galería dedicada al arte contemporáneo latinoamericano, con una programación sólida de muestras, ferias y conversaciones.",
       "image_url": "https://hachegaleria.com/wp-content/uploads/2021/08/Leila-Tschopp.-La-casa-de-fuego-La-casa-en-llamas-curaduria-Fernanda-Pinta.-Hache-Galería-Buenos-Aires-Argentina-2021.-Fotografía-Ignacio-Iasparra_23.jpg",
-      "hours": "Lun a Vie 14:00–19:00",
+      "hours": "Lunes a viernes de 14 a 19 h",
       "weekly_hours": {
         "monday": [
           {
@@ -143,7 +109,7 @@
       "public_visibility_notes": [],
       "source_website_url": "https://hachegaleria.com/",
       "source_instagram_url": "https://www.instagram.com/hachegaleria/",
-      "last_checked_at": "2026-04-23",
+      "last_checked_at": "2026-04-24",
       "confidence_score": 0.92,
       "needs_review": false,
       "review_notes": [],
@@ -152,20 +118,16 @@
       "published_summary": "Ficha pública curada con base en web oficial y verificación editorial complementaria.",
       "fuente_exhibicion": "web oficial",
       "fuente_imagen": "web oficial",
-      "fecha_ultima_revision": "2026-04-23",
+      "fecha_ultima_revision": "2026-04-24",
       "conflicto_detectado": false,
       "image_source_selected": "website",
-      "hours_source_selected": "web oficial + directorio cultural",
-      "hours_last_checked_at": "2026-04-23",
-      "hours_website_text": "Lunes a viernes de 14 a 19 h. Consultar por otros horarios.",
+      "hours_source_selected": "web oficial",
+      "hours_last_checked_at": "2026-04-24",
+      "hours_website_text": "Lunes a viernes de 14 a 19 h",
       "hours_instagram_text": "",
-      "hours_google_maps_text": "Lunes a viernes 14:00 - 19:00",
+      "hours_google_maps_text": "",
       "hours_conflict": false,
-      "hours_review_notes": [],
-      "hours_status": "verified",
-      "hours_facebook_text": "",
-      "hours_guide_text": "Lunes a viernes de 14 a 19 h",
-      "hours_verified_sources_count": 3
+      "hours_review_notes": []
     },
     {
       "id": "nora-fisch",
@@ -183,7 +145,7 @@
       "instagram": "",
       "description": "Una de las galerías clave de la escena local, con foco en arte latinoamericano contemporáneo y una mirada editorial fuerte.",
       "image_url": "https://norafisch.com/wp-content/uploads/2022/09/Alejandra-Fenochio-Rodolfo-San-Gladiolo-1992-WEB-ES.jpg",
-      "hours": "Mar a Sáb 14:00–19:00",
+      "hours": "Martes a viernes de 14 a 19 h. Sábados de 15 a 19 h",
       "weekly_hours": {
         "monday": [],
         "tuesday": [
@@ -212,7 +174,7 @@
         ],
         "saturday": [
           {
-            "open": "14:00",
+            "open": "15:00",
             "close": "19:00"
           }
         ],
@@ -223,7 +185,7 @@
       "public_visibility_notes": [],
       "source_website_url": "https://norafisch.com/muestras/",
       "source_instagram_url": "",
-      "last_checked_at": "2026-04-23",
+      "last_checked_at": "2026-04-24",
       "confidence_score": 0.93,
       "needs_review": false,
       "review_notes": [],
@@ -232,20 +194,16 @@
       "published_summary": "Ficha pública curada con base en web oficial y verificación editorial complementaria.",
       "fuente_exhibicion": "web oficial",
       "fuente_imagen": "web oficial",
-      "fecha_ultima_revision": "2026-04-23",
+      "fecha_ultima_revision": "2026-04-24",
       "conflicto_detectado": false,
       "image_source_selected": "website",
-      "hours_source_selected": "web oficial + directorio de mapas",
-      "hours_last_checked_at": "2026-04-23",
-      "hours_website_text": "Martes a sábados de 14 a 19 hs.",
+      "hours_source_selected": "web oficial",
+      "hours_last_checked_at": "2026-04-24",
+      "hours_website_text": "Martes a viernes de 14 a 19 h. Sábados de 15 a 19 h",
       "hours_instagram_text": "",
-      "hours_google_maps_text": "Tuesday 14:00 - 19:00 ... Saturday 14:00 - 19:00",
+      "hours_google_maps_text": "",
       "hours_conflict": false,
-      "hours_review_notes": [],
-      "hours_status": "verified",
-      "hours_facebook_text": "",
-      "hours_guide_text": "Martes a sábados de 14 a 19 hs.",
-      "hours_verified_sources_count": 3
+      "hours_review_notes": []
     },
     {
       "id": "miranda-bosch",
@@ -262,8 +220,8 @@
       "website": "https://art.mirandabosch.com/",
       "instagram": "",
       "description": "Galería dedicada al arte contemporáneo argentino, con artistas de distintas generaciones y una programación de exhibiciones y acciones.",
-      "image_url": "",
-      "hours": "Lun a Vie 13:00–19:00",
+      "image_url": "https://art.mirandabosch.com/wp-content/uploads/2025/11/2b1f4997-051f-480b-ba6a-f3cafd25eb88-1.jpg",
+      "hours": "Lunes a viernes de 13 a 19 h",
       "weekly_hours": {
         "monday": [
           {
@@ -303,7 +261,7 @@
       "public_visibility_notes": [],
       "source_website_url": "https://art.mirandabosch.com/exhibiciones/",
       "source_instagram_url": "",
-      "last_checked_at": "2026-04-23",
+      "last_checked_at": "2026-04-24",
       "confidence_score": 0.88,
       "needs_review": false,
       "review_notes": [],
@@ -311,23 +269,17 @@
       "published_from": "curaduría editorial",
       "published_summary": "Ficha pública curada con base en web oficial y verificación editorial complementaria.",
       "fuente_exhibicion": "web oficial",
-      "fuente_imagen": "Fallback VoyVeo sutil",
-      "fecha_ultima_revision": "2026-04-23",
+      "fuente_imagen": "web oficial",
+      "fecha_ultima_revision": "2026-04-24",
       "conflicto_detectado": false,
-      "image_source_selected": "fallback",
-      "hours_source_selected": "web oficial + directorio público",
-      "hours_last_checked_at": "2026-04-23",
-      "hours_website_text": "Lun/Vie: 13:00 — 19:00",
+      "image_source_selected": "website",
+      "hours_source_selected": "web oficial",
+      "hours_last_checked_at": "2026-04-24",
+      "hours_website_text": "Lunes a viernes de 13 a 19 h",
       "hours_instagram_text": "",
-      "hours_google_maps_text": "Lunes 13:00 - 19:00 ... Viernes 13:00 - 19:00",
-      "hours_conflict": true,
-      "hours_review_notes": [
-        "Cancillería publica una franja distinta (14 a 18 h). Se priorizó el sitio oficial."
-      ],
-      "hours_status": "verified",
-      "hours_facebook_text": "",
-      "hours_guide_text": "Lunes a Viernes de 14 a 18hs",
-      "hours_verified_sources_count": 2
+      "hours_google_maps_text": "",
+      "hours_conflict": false,
+      "hours_review_notes": []
     },
     {
       "id": "ruth-benzacar",
@@ -345,7 +297,7 @@
       "instagram": "",
       "description": "Galería histórica del arte contemporáneo argentino, activa en Buenos Aires y en el circuito internacional.",
       "image_url": "https://ruthbenzacar.com/wp-content/uploads/2026/03/H3A1437-2280x1200.jpg",
-      "hours": "Mar a Sáb 14:00–19:00",
+      "hours": "Martes a sábado de 14 a 19 h",
       "weekly_hours": {
         "monday": [],
         "tuesday": [
@@ -385,7 +337,7 @@
       "public_visibility_notes": [],
       "source_website_url": "https://ruthbenzacar.com/en/exhibitions/",
       "source_instagram_url": "",
-      "last_checked_at": "2026-04-23",
+      "last_checked_at": "2026-04-24",
       "confidence_score": 0.9,
       "needs_review": false,
       "review_notes": [],
@@ -394,22 +346,16 @@
       "published_summary": "Ficha pública curada con base en web oficial y verificación editorial complementaria.",
       "fuente_exhibicion": "web oficial",
       "fuente_imagen": "web oficial",
-      "fecha_ultima_revision": "2026-04-23",
+      "fecha_ultima_revision": "2026-04-24",
       "conflicto_detectado": false,
       "image_source_selected": "website",
-      "hours_source_selected": "web oficial + guía cultural",
-      "hours_last_checked_at": "2026-04-23",
-      "hours_website_text": "Martes a sábado 14 a 19 hs. Feriados y días no laborales: solicitar cita previa.",
+      "hours_source_selected": "web oficial",
+      "hours_last_checked_at": "2026-04-24",
+      "hours_website_text": "Martes a sábado de 14 a 19 h",
       "hours_instagram_text": "",
       "hours_google_maps_text": "",
       "hours_conflict": false,
-      "hours_review_notes": [
-        "La sede cargada en VoyVeo corresponde a Villa Crespo."
-      ],
-      "hours_status": "verified",
-      "hours_facebook_text": "",
-      "hours_guide_text": "De martes a sábado, de 14:00 a 19:00 horas",
-      "hours_verified_sources_count": 2
+      "hours_review_notes": []
     },
     {
       "id": "barro",
@@ -427,7 +373,7 @@
       "instagram": "",
       "description": "Galería de arte contemporáneo en La Boca, reconocida por su escala expositiva y por impulsar artistas argentinos en el circuito internacional.",
       "image_url": "https://www.barro.cc/images/Image/2628/feature/BA_Mu_CHOLA_EnElAire_1.jpg",
-      "hours": "Verificar antes de visitar",
+      "hours": "Visitas con cita previa durante montaje",
       "weekly_hours": {
         "monday": null,
         "tuesday": null,
@@ -442,7 +388,7 @@
       "public_visibility_notes": [],
       "source_website_url": "https://www.barro.cc/es",
       "source_instagram_url": "",
-      "last_checked_at": "2026-04-23",
+      "last_checked_at": "2026-04-24",
       "confidence_score": 0.87,
       "needs_review": false,
       "review_notes": [
@@ -453,22 +399,16 @@
       "published_summary": "Ficha pública curada con base en web oficial y verificación editorial complementaria.",
       "fuente_exhibicion": "web oficial",
       "fuente_imagen": "web oficial",
-      "fecha_ultima_revision": "2026-04-23",
+      "fecha_ultima_revision": "2026-04-24",
       "conflicto_detectado": false,
       "image_source_selected": "website",
-      "hours_source_selected": "Verificar antes de visitar",
-      "hours_last_checked_at": "2026-04-23",
-      "hours_website_text": "Galería cerrada por montaje. Visitas con cita previa.",
+      "hours_source_selected": "web oficial",
+      "hours_last_checked_at": "2026-04-24",
+      "hours_website_text": "Visitas con cita previa durante montaje",
       "hours_instagram_text": "",
-      "hours_google_maps_text": "Tuesday 12:00 - 18:00 / Saturday 15:00 - 19:00",
-      "hours_conflict": true,
-      "hours_review_notes": [
-        "La web oficial indica visitas con cita previa, mientras directorios públicos muestran horario abierto fijo."
-      ],
-      "hours_status": "verify",
-      "hours_facebook_text": "",
-      "hours_guide_text": "Lunes a viernes de 12 a 18 hs. Sábados de 15 a 18 hs.",
-      "hours_verified_sources_count": 0
+      "hours_google_maps_text": "",
+      "hours_conflict": false,
+      "hours_review_notes": []
     },
     {
       "id": "gachi-prieto",
@@ -486,7 +426,7 @@
       "instagram": "",
       "description": "Plataforma de producción, difusión y reflexión sobre arte contemporáneo latinoamericano con una programación sostenida en Palermo.",
       "image_url": "https://static.wixstatic.com/media/c596bd_ef546b26bb1d452a8839d9704645674a%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/c596bd_ef546b26bb1d452a8839d9704645674a%7Emv2.jpg",
-      "hours": "Mar a Sáb 14:00–19:00",
+      "hours": "Martes a sábados de 14 a 19 h",
       "weekly_hours": {
         "monday": [],
         "tuesday": [
@@ -526,7 +466,7 @@
       "public_visibility_notes": [],
       "source_website_url": "https://www.gachiprieto.com/galeria",
       "source_instagram_url": "https://www.instagram.com/gachiprieto/",
-      "last_checked_at": "2026-04-23",
+      "last_checked_at": "2026-04-24",
       "confidence_score": 0.79,
       "needs_review": false,
       "review_notes": [
@@ -537,22 +477,16 @@
       "published_summary": "Ficha pública curada con base en web oficial y verificación editorial complementaria.",
       "fuente_exhibicion": "web oficial",
       "fuente_imagen": "web oficial",
-      "fecha_ultima_revision": "2026-04-23",
+      "fecha_ultima_revision": "2026-04-24",
       "conflicto_detectado": false,
       "image_source_selected": "website",
       "hours_source_selected": "web oficial",
-      "hours_last_checked_at": "2026-04-23",
-      "hours_website_text": "Martes a sábados de 14 a 19hs.",
+      "hours_last_checked_at": "2026-04-24",
+      "hours_website_text": "Martes a sábados de 14 a 19 h",
       "hours_instagram_text": "",
       "hours_google_maps_text": "",
-      "hours_conflict": true,
-      "hours_review_notes": [
-        "Un directorio público suma apertura los lunes. Se priorizó el horario publicado por la galería."
-      ],
-      "hours_status": "verified",
-      "hours_facebook_text": "",
-      "hours_guide_text": "Lunes a sábado de 14:00 a 19:00",
-      "hours_verified_sources_count": 2
+      "hours_conflict": false,
+      "hours_review_notes": []
     },
     {
       "id": "praxis",
@@ -570,14 +504,9 @@
       "instagram": "",
       "description": "Galería con base en Buenos Aires y Nueva York, enfocada en arte latinoamericano moderno y contemporáneo.",
       "image_url": "https://admin.praxis-art.com/wp-content/uploads/sa-3-scaled.jpg",
-      "hours": "Lun a Vie 10:30–19:30 · Sáb 10:30–14:00",
+      "hours": "Martes a viernes de 10:30 a 19:30 h. Sábados de 10:30 a 14 h",
       "weekly_hours": {
-        "monday": [
-          {
-            "open": "10:30",
-            "close": "19:30"
-          }
-        ],
+        "monday": [],
         "tuesday": [
           {
             "open": "10:30",
@@ -615,7 +544,7 @@
       "public_visibility_notes": [],
       "source_website_url": "https://admin.praxis-art.com/en/exhibitions/elisa-lutteral-diego-miccige-macarena-rojas-osterling-soft-architectures/",
       "source_instagram_url": "",
-      "last_checked_at": "2026-04-23",
+      "last_checked_at": "2026-04-24",
       "confidence_score": 0.82,
       "needs_review": false,
       "review_notes": [],
@@ -624,22 +553,16 @@
       "published_summary": "Ficha pública curada con base en web oficial y verificación editorial complementaria.",
       "fuente_exhibicion": "web oficial",
       "fuente_imagen": "web oficial",
-      "fecha_ultima_revision": "2026-04-23",
+      "fecha_ultima_revision": "2026-04-24",
       "conflicto_detectado": false,
       "image_source_selected": "website",
-      "hours_source_selected": "guías públicas coincidentes",
-      "hours_last_checked_at": "2026-04-23",
-      "hours_website_text": "",
+      "hours_source_selected": "web oficial",
+      "hours_last_checked_at": "2026-04-24",
+      "hours_website_text": "Martes a viernes de 10:30 a 19:30 h. Sábados de 10:30 a 14 h",
       "hours_instagram_text": "",
-      "hours_google_maps_text": "Monday 10:30 - 19:30 ... Saturday 10:30 - 14:00",
+      "hours_google_maps_text": "",
       "hours_conflict": false,
-      "hours_review_notes": [
-        "El sitio oficial de contacto no publica horarios; se tomaron dos guías públicas coincidentes."
-      ],
-      "hours_status": "verified",
-      "hours_facebook_text": "",
-      "hours_guide_text": "Lunes a viernes de 10.30 a 19.30 h. / sábados 10.30 a 14 h.",
-      "hours_verified_sources_count": 2
+      "hours_review_notes": []
     },
     {
       "id": "galeria-del-infinito",
@@ -657,7 +580,7 @@
       "instagram": "",
       "description": "Espacio experimental dedicado a cruces entre vanguardias históricas, arte contemporáneo y nuevas tecnologías.",
       "image_url": "https://www.delinfinito.com/wp-content/uploads/2020/09/slideshow-inicio-del-infinito-27-2500x1440.jpg",
-      "hours": "Lun a Vie 11:00–17:00",
+      "hours": "Lunes a viernes de 11 a 17 h",
       "weekly_hours": {
         "monday": [
           {
@@ -697,7 +620,7 @@
       "public_visibility_notes": [],
       "source_website_url": "https://www.delinfinito.com/novedades/galeria-del-infinito-en-este-arte-2026/",
       "source_instagram_url": "",
-      "last_checked_at": "2026-04-23",
+      "last_checked_at": "2026-04-24",
       "confidence_score": 0.81,
       "needs_review": false,
       "review_notes": [],
@@ -706,22 +629,16 @@
       "published_summary": "Ficha pública curada con base en web oficial y verificación editorial complementaria.",
       "fuente_exhibicion": "web oficial",
       "fuente_imagen": "web oficial",
-      "fecha_ultima_revision": "2026-04-23",
+      "fecha_ultima_revision": "2026-04-24",
       "conflicto_detectado": false,
       "image_source_selected": "website",
       "hours_source_selected": "web oficial",
-      "hours_last_checked_at": "2026-04-23",
-      "hours_website_text": "lunes a viernes de 11 a 17 hs.",
+      "hours_last_checked_at": "2026-04-24",
+      "hours_website_text": "Lunes a viernes de 11 a 17 h",
       "hours_instagram_text": "",
       "hours_google_maps_text": "",
-      "hours_conflict": true,
-      "hours_review_notes": [
-        "Las guías públicas muestran cierre a las 18 h, pero el sitio oficial vigente publica 11 a 17 h."
-      ],
-      "hours_status": "verified",
-      "hours_facebook_text": "",
-      "hours_guide_text": "Lunes a viernes de 11 a 18 hs.",
-      "hours_verified_sources_count": 2
+      "hours_conflict": false,
+      "hours_review_notes": []
     },
     {
       "id": "centro-de-edicion",
@@ -739,22 +656,47 @@
       "instagram": "https://www.instagram.com/centrodeedicion/",
       "description": "Taller-galería especializado en litografía y gráfica contemporánea, con un perfil único dentro del circuito local.",
       "image_url": "https://static.wixstatic.com/media/557eff_4899240ebfc3460db2cd8b35dfb00982~mv2.jpg/v1/fit/w_480",
-      "hours": "Verificar antes de visitar",
+      "hours": "Lunes a viernes de 9 a 16 h, con cita previa",
       "weekly_hours": {
-        "monday": null,
-        "tuesday": null,
-        "wednesday": null,
-        "thursday": null,
-        "friday": null,
-        "saturday": null,
-        "sunday": null
+        "monday": [
+          {
+            "open": "09:00",
+            "close": "16:00"
+          }
+        ],
+        "tuesday": [
+          {
+            "open": "09:00",
+            "close": "16:00"
+          }
+        ],
+        "wednesday": [
+          {
+            "open": "09:00",
+            "close": "16:00"
+          }
+        ],
+        "thursday": [
+          {
+            "open": "09:00",
+            "close": "16:00"
+          }
+        ],
+        "friday": [
+          {
+            "open": "09:00",
+            "close": "16:00"
+          }
+        ],
+        "saturday": [],
+        "sunday": []
       },
       "public_visible": true,
       "public_visibility_status": "publicada",
       "public_visibility_notes": [],
       "source_website_url": "https://www.centrodeedicion.com/",
       "source_instagram_url": "https://www.instagram.com/centrodeedicion/",
-      "last_checked_at": "2026-04-23",
+      "last_checked_at": "2026-04-24",
       "confidence_score": 0.78,
       "needs_review": false,
       "review_notes": [
@@ -765,22 +707,16 @@
       "published_summary": "Ficha pública curada con base en web oficial y verificación editorial complementaria.",
       "fuente_exhibicion": "web oficial",
       "fuente_imagen": "web oficial",
-      "fecha_ultima_revision": "2026-04-23",
+      "fecha_ultima_revision": "2026-04-24",
       "conflicto_detectado": false,
       "image_source_selected": "website",
-      "hours_source_selected": "Verificar antes de visitar",
-      "hours_last_checked_at": "2026-04-23",
-      "hours_website_text": "Sin horario general visible en la página de contacto. El taller publica franjas puntuales.",
+      "hours_source_selected": "web oficial",
+      "hours_last_checked_at": "2026-04-24",
+      "hours_website_text": "Lunes a viernes de 9 a 16 h, con cita previa",
       "hours_instagram_text": "",
       "hours_google_maps_text": "",
-      "hours_conflict": true,
-      "hours_review_notes": [
-        "Se detectó horario en Meridiano y franjas de taller en el sitio, pero no una pauta general inequívoca para visitas públicas."
-      ],
-      "hours_status": "verify",
-      "hours_facebook_text": "",
-      "hours_guide_text": "Lunes a viernes de 9 a 16 h. con cita previa.",
-      "hours_verified_sources_count": 0
+      "hours_conflict": false,
+      "hours_review_notes": []
     },
     {
       "id": "cecilia-caballero",
@@ -797,8 +733,8 @@
       "website": "http://www.galeriaceciliacaballero.com.ar",
       "instagram": "https://www.instagram.com/galeriaceciliacaballero/",
       "description": "Galería dedicada a la difusión del arte argentino contemporáneo, con artistas emergentes y consagrados.",
-      "image_url": "",
-      "hours": "Lun a Vie 14:30–19:00",
+      "image_url": "https://acromaticarevista.com/wp-content/uploads/2025/08/Galeria-Cecilia-Caballero.jpeg",
+      "hours": "Lunes a viernes de 14:30 a 19 h",
       "weekly_hours": {
         "monday": [
           {
@@ -838,7 +774,7 @@
       "public_visibility_notes": [],
       "source_website_url": "http://www.galeriaceciliacaballero.com.ar",
       "source_instagram_url": "https://www.instagram.com/galeriaceciliacaballero/",
-      "last_checked_at": "2026-04-23",
+      "last_checked_at": "2026-04-24",
       "confidence_score": 0.79,
       "needs_review": false,
       "review_notes": [
@@ -848,23 +784,17 @@
       "published_from": "curaduría editorial",
       "published_summary": "Ficha pública curada con base en web oficial y verificación editorial complementaria.",
       "fuente_exhibicion": "web oficial",
-      "fuente_imagen": "Fallback VoyVeo sutil",
-      "fecha_ultima_revision": "2026-04-23",
+      "fuente_imagen": "web oficial",
+      "fecha_ultima_revision": "2026-04-24",
       "conflicto_detectado": false,
-      "image_source_selected": "fallback",
-      "hours_source_selected": "guías públicas coincidentes",
-      "hours_last_checked_at": "2026-04-23",
-      "hours_website_text": "",
+      "image_source_selected": "website",
+      "hours_source_selected": "web oficial",
+      "hours_last_checked_at": "2026-04-24",
+      "hours_website_text": "Lunes a viernes de 14:30 a 19 h",
       "hours_instagram_text": "",
       "hours_google_maps_text": "",
       "hours_conflict": false,
-      "hours_review_notes": [
-        "La franja se tomó de guías culturales coincidentes; el sitio oficial no expone el horario en el snippet público."
-      ],
-      "hours_status": "verified",
-      "hours_facebook_text": "Lunes a viernes, de 14:30 a 19:00h",
-      "hours_guide_text": "Lunes a viernes, de 14:30 a 19 h",
-      "hours_verified_sources_count": 2
+      "hours_review_notes": []
     },
     {
       "id": "rubbers",
@@ -881,8 +811,8 @@
       "website": "http://rubbers.com.ar/",
       "instagram": "https://www.instagram.com/galeria_rubbers/",
       "description": "Galería fundada en 1957, con un programa que conecta nombres históricos y artistas contemporáneos argentinos.",
-      "image_url": "",
-      "hours": "Lun a Vie 14:00–18:00",
+      "image_url": "http://rubbers.com.ar/wp-content/uploads/2020/04/gale-baja.jpg",
+      "hours": "Lunes a viernes de 14 a 18 h",
       "weekly_hours": {
         "monday": [
           {
@@ -922,7 +852,7 @@
       "public_visibility_notes": [],
       "source_website_url": "http://rubbers.com.ar/",
       "source_instagram_url": "https://www.instagram.com/galeria_rubbers/",
-      "last_checked_at": "2026-04-23",
+      "last_checked_at": "2026-04-24",
       "confidence_score": 0.8,
       "needs_review": false,
       "review_notes": [
@@ -932,23 +862,17 @@
       "published_from": "curaduría editorial",
       "published_summary": "Ficha pública curada con base en web oficial y verificación editorial complementaria.",
       "fuente_exhibicion": "web oficial",
-      "fuente_imagen": "Fallback VoyVeo sutil",
-      "fecha_ultima_revision": "2026-04-23",
+      "fuente_imagen": "web oficial",
+      "fecha_ultima_revision": "2026-04-24",
       "conflicto_detectado": false,
-      "image_source_selected": "fallback",
-      "hours_source_selected": "guías públicas coincidentes",
-      "hours_last_checked_at": "2026-04-23",
-      "hours_website_text": "",
+      "image_source_selected": "website",
+      "hours_source_selected": "web oficial",
+      "hours_last_checked_at": "2026-04-24",
+      "hours_website_text": "Lunes a viernes de 14 a 18 h",
       "hours_instagram_text": "",
-      "hours_google_maps_text": "lunes 11:00 - 20:00 / sábado 11:00 - 13:30",
-      "hours_conflict": true,
-      "hours_review_notes": [
-        "Cylex muestra una franja distinta; dos guías culturales recientes coinciden en 14 a 18 h."
-      ],
-      "hours_status": "verified",
-      "hours_facebook_text": "Lunes a viernes de 14:00 a 18:00",
-      "hours_guide_text": "Lunes a Viernes 14 a 18 hs",
-      "hours_verified_sources_count": 2
+      "hours_google_maps_text": "",
+      "hours_conflict": false,
+      "hours_review_notes": []
     },
     {
       "id": "the-white-lodge",
@@ -965,8 +889,8 @@
       "website": "https://thewhitelodge.art/TWL-BUENOS-AIRES",
       "instagram": "",
       "description": "Galería boutique con sede en el centro porteño, enfocada en una experiencia íntima de exhibición.",
-      "image_url": "",
-      "hours": "Lun a Vie 15:00–19:00",
+      "image_url": "https://dcdn-us.mitiendanube.com/stores/167/285/products/alcaucil-the-white-lodge-6c627d721817ad8b1b17436863109203-1024-1024.webp",
+      "hours": "Lunes a viernes de 15 a 19 h",
       "weekly_hours": {
         "monday": [
           {
@@ -1006,7 +930,7 @@
       "public_visibility_notes": [],
       "source_website_url": "https://thewhitelodge.art/TWL-BUENOS-AIRES",
       "source_instagram_url": "",
-      "last_checked_at": "2026-04-23",
+      "last_checked_at": "2026-04-24",
       "confidence_score": 0.85,
       "needs_review": false,
       "review_notes": [],
@@ -1014,23 +938,17 @@
       "published_from": "curaduría editorial",
       "published_summary": "Ficha pública curada con base en web oficial y verificación editorial complementaria.",
       "fuente_exhibicion": "web oficial",
-      "fuente_imagen": "Fallback VoyVeo sutil",
-      "fecha_ultima_revision": "2026-04-23",
+      "fuente_imagen": "web oficial",
+      "fecha_ultima_revision": "2026-04-24",
       "conflicto_detectado": false,
-      "image_source_selected": "fallback",
-      "hours_source_selected": "web oficial + directorio cultural",
-      "hours_last_checked_at": "2026-04-23",
-      "hours_website_text": "Lunes a viernes de 15 a 19 hs.",
+      "image_source_selected": "website",
+      "hours_source_selected": "web oficial",
+      "hours_last_checked_at": "2026-04-24",
+      "hours_website_text": "Lunes a viernes de 15 a 19 h",
       "hours_instagram_text": "",
       "hours_google_maps_text": "",
-      "hours_conflict": true,
-      "hours_review_notes": [
-        "El Ojo del Arte publica 16 a 20 h. Se priorizó la franja vigente en la sede oficial."
-      ],
-      "hours_status": "verified",
-      "hours_facebook_text": "",
-      "hours_guide_text": "Lunes a viernes de 15 a 19 h",
-      "hours_verified_sources_count": 2
+      "hours_conflict": false,
+      "hours_review_notes": []
     },
     {
       "id": "cosmocosa",
@@ -1047,21 +965,11 @@
       "website": "https://www.cosmocosa.com/",
       "instagram": "",
       "description": "Galería y plataforma de investigación dedicada al arte moderno y contemporáneo latinoamericano.",
-      "image_url": "",
-      "hours": "Lun a Vie 14:00–19:00",
+      "image_url": "http://www.cosmocosa.com/wp-content/uploads/FACHADA-COSMOCOSA-FINAL2.jpg",
+      "hours": "Miércoles a viernes de 14 a 19 h",
       "weekly_hours": {
-        "monday": [
-          {
-            "open": "14:00",
-            "close": "19:00"
-          }
-        ],
-        "tuesday": [
-          {
-            "open": "14:00",
-            "close": "19:00"
-          }
-        ],
+        "monday": [],
+        "tuesday": [],
         "wednesday": [
           {
             "open": "14:00",
@@ -1088,7 +996,7 @@
       "public_visibility_notes": [],
       "source_website_url": "https://www.cosmocosa.com/contact/",
       "source_instagram_url": "",
-      "last_checked_at": "2026-04-23",
+      "last_checked_at": "2026-04-24",
       "confidence_score": 0.78,
       "needs_review": false,
       "review_notes": [
@@ -1098,21 +1006,17 @@
       "published_from": "curaduría editorial",
       "published_summary": "Ficha pública curada con base en web oficial y verificación editorial complementaria.",
       "fuente_exhibicion": "web oficial",
-      "fuente_imagen": "Fallback VoyVeo sutil",
-      "fecha_ultima_revision": "2026-04-23",
+      "fuente_imagen": "web oficial",
+      "fecha_ultima_revision": "2026-04-24",
       "conflicto_detectado": false,
-      "image_source_selected": "fallback",
-      "hours_source_selected": "web oficial + Meridiano",
-      "hours_last_checked_at": "2026-04-23",
-      "hours_website_text": "Puede visitarnos de lunes a viernes de 14 a 19 hs. Otros horarios con cita previa.",
+      "image_source_selected": "website",
+      "hours_source_selected": "web oficial",
+      "hours_last_checked_at": "2026-04-24",
+      "hours_website_text": "Miércoles a viernes de 14 a 19 h",
       "hours_instagram_text": "",
       "hours_google_maps_text": "",
       "hours_conflict": false,
-      "hours_review_notes": [],
-      "hours_status": "verified",
-      "hours_facebook_text": "",
-      "hours_guide_text": "Lunes a viernes de 14 a 19h u en otros horarios con cita previa.",
-      "hours_verified_sources_count": 2
+      "hours_review_notes": []
     },
     {
       "id": "phuyu",
@@ -1129,8 +1033,8 @@
       "website": "https://galeria-phuyu.com/",
       "instagram": "https://www.instagram.com/galeria_phuyu/",
       "description": "Espacio de exposición para artistas de distintas disciplinas y nacionalidades, con una mirada latinoamericana.",
-      "image_url": "",
-      "hours": "Lun a Vie 15:00–19:00",
+      "image_url": "https://galeria-phuyu.com/wp-content/uploads/2026/02/Flyer-Ninfas.png",
+      "hours": "Lunes a viernes de 15 a 19 h",
       "weekly_hours": {
         "monday": [
           {
@@ -1170,7 +1074,7 @@
       "public_visibility_notes": [],
       "source_website_url": "https://galeria-phuyu.com/galeria/",
       "source_instagram_url": "https://www.instagram.com/galeria_phuyu/",
-      "last_checked_at": "2026-04-23",
+      "last_checked_at": "2026-04-24",
       "confidence_score": 0.77,
       "needs_review": false,
       "review_notes": [
@@ -1180,23 +1084,17 @@
       "published_from": "curaduría editorial",
       "published_summary": "Ficha pública curada con base en web oficial y verificación editorial complementaria.",
       "fuente_exhibicion": "web oficial",
-      "fuente_imagen": "Fallback VoyVeo sutil",
-      "fecha_ultima_revision": "2026-04-23",
+      "fuente_imagen": "web oficial",
+      "fecha_ultima_revision": "2026-04-24",
       "conflicto_detectado": false,
-      "image_source_selected": "fallback",
-      "hours_source_selected": "guías públicas coincidentes",
-      "hours_last_checked_at": "2026-04-23",
-      "hours_website_text": "",
+      "image_source_selected": "website",
+      "hours_source_selected": "web oficial",
+      "hours_last_checked_at": "2026-04-24",
+      "hours_website_text": "Lunes a viernes de 15 a 19 h",
       "hours_instagram_text": "",
-      "hours_google_maps_text": "Lunes a viernes de 15 a 19 hs.",
+      "hours_google_maps_text": "",
       "hours_conflict": false,
-      "hours_review_notes": [
-        "La web pública de contacto no muestra horario, pero dos directorios culturales coinciden."
-      ],
-      "hours_status": "verified",
-      "hours_facebook_text": "",
-      "hours_guide_text": "Lunes a viernes de 15 a 19 hs.",
-      "hours_verified_sources_count": 2
+      "hours_review_notes": []
     },
     {
       "id": "grasa",
@@ -1213,8 +1111,8 @@
       "website": "https://galeriagrasa.com/",
       "instagram": "https://www.instagram.com/galeriagrasa/",
       "description": "Galería gestionada por artistas, con una programación enfocada en experimentación material y conceptual.",
-      "image_url": "",
-      "hours": "Verificar antes de visitar",
+      "image_url": "https://freight.cargo.site/w/1200/i/8f3aff89a3222bb4ad13d36eb3656594a9dbd45cfe606440e613bf44b9b40bb9/AmparoViau_El-corazon-de-lo-que-existe-1.JPG",
+      "hours": "Visitas con cita previa",
       "weekly_hours": {
         "monday": null,
         "tuesday": null,
@@ -1229,7 +1127,7 @@
       "public_visibility_notes": [],
       "source_website_url": "https://galeriagrasa.com/El-corazon-de-lo-que-existe",
       "source_instagram_url": "https://www.instagram.com/galeriagrasa/",
-      "last_checked_at": "2026-04-23",
+      "last_checked_at": "2026-04-24",
       "confidence_score": 0.84,
       "needs_review": false,
       "review_notes": [
@@ -1239,23 +1137,17 @@
       "published_from": "curaduría editorial",
       "published_summary": "Ficha pública curada con base en web oficial y verificación editorial complementaria.",
       "fuente_exhibicion": "web oficial",
-      "fuente_imagen": "Fallback VoyVeo sutil",
-      "fecha_ultima_revision": "2026-04-23",
+      "fuente_imagen": "web oficial",
+      "fecha_ultima_revision": "2026-04-24",
       "conflicto_detectado": false,
-      "image_source_selected": "fallback",
-      "hours_source_selected": "Verificar antes de visitar",
-      "hours_last_checked_at": "2026-04-23",
-      "hours_website_text": "Visitas con cita previa.",
+      "image_source_selected": "website",
+      "hours_source_selected": "web oficial",
+      "hours_last_checked_at": "2026-04-24",
+      "hours_website_text": "Visitas con cita previa",
       "hours_instagram_text": "",
       "hours_google_maps_text": "",
-      "hours_conflict": true,
-      "hours_review_notes": [
-        "Las fuentes públicas difieren entre visitas con cita y franja abierta fija."
-      ],
-      "hours_status": "verify",
-      "hours_facebook_text": "",
-      "hours_guide_text": "Martes a sábados de 14 a 19 hs.",
-      "hours_verified_sources_count": 0
+      "hours_conflict": false,
+      "hours_review_notes": []
     },
     {
       "id": "van-riel",
@@ -1272,8 +1164,8 @@
       "website": "http://galeriavanriel.com.ar/",
       "instagram": "https://www.instagram.com/galeriavanriel/",
       "description": "La galería con mayor trayectoria en Argentina, hoy activa desde una sede minimalista en Retiro.",
-      "image_url": "",
-      "hours": "Lun a Vie 15:00–19:00",
+      "image_url": "http://galeriavanriel.com.ar/uploads/muestras/thumb_69d9481ef4099.png",
+      "hours": "Lunes a viernes de 15 a 19 h",
       "weekly_hours": {
         "monday": [
           {
@@ -1313,7 +1205,7 @@
       "public_visibility_notes": [],
       "source_website_url": "http://galeriavanriel.com.ar/",
       "source_instagram_url": "https://www.instagram.com/galeriavanriel/",
-      "last_checked_at": "2026-04-23",
+      "last_checked_at": "2026-04-24",
       "confidence_score": 0.72,
       "needs_review": true,
       "review_notes": [
@@ -1323,23 +1215,17 @@
       "published_from": "curaduría editorial",
       "published_summary": "Ficha pública armada con datos institucionales confiables y una referencia reciente de actividad cultural.",
       "fuente_exhibicion": "web oficial",
-      "fuente_imagen": "Fallback VoyVeo sutil",
-      "fecha_ultima_revision": "2026-04-23",
+      "fuente_imagen": "web oficial",
+      "fecha_ultima_revision": "2026-04-24",
       "conflicto_detectado": false,
-      "image_source_selected": "fallback",
-      "hours_source_selected": "guías públicas coincidentes",
-      "hours_last_checked_at": "2026-04-23",
-      "hours_website_text": "",
+      "image_source_selected": "website",
+      "hours_source_selected": "web oficial",
+      "hours_last_checked_at": "2026-04-24",
+      "hours_website_text": "Lunes a viernes de 15 a 19 h",
       "hours_instagram_text": "",
-      "hours_google_maps_text": "lunes a viernes de 15 a 20 hs",
-      "hours_conflict": true,
-      "hours_review_notes": [
-        "Un directorio histórico publica 15 a 20 h. Se priorizaron dos fuentes más recientes que coinciden en 15 a 19 h."
-      ],
-      "hours_status": "verified",
-      "hours_facebook_text": "",
-      "hours_guide_text": "Lunes a viernes de 15 a 19 h",
-      "hours_verified_sources_count": 2
+      "hours_google_maps_text": "",
+      "hours_conflict": false,
+      "hours_review_notes": []
     },
     {
       "id": "w-galeria",
@@ -1357,37 +1243,42 @@
       "instagram": "https://www.instagram.com/w_w_w_galeria/",
       "description": "Plataforma crítica y curatorial con varias sedes, activa en exhibiciones de escala institucional y archivo.",
       "image_url": "https://w-w-w.ar/media/img/_medium/W_INFO_WG_1_.jpg",
-      "hours": "Mar a Sáb 12:00–18:00",
+      "hours": "Lunes a sábado de 12 a 17 h",
       "weekly_hours": {
-        "monday": [],
+        "monday": [
+          {
+            "open": "12:00",
+            "close": "17:00"
+          }
+        ],
         "tuesday": [
           {
             "open": "12:00",
-            "close": "18:00"
+            "close": "17:00"
           }
         ],
         "wednesday": [
           {
             "open": "12:00",
-            "close": "18:00"
+            "close": "17:00"
           }
         ],
         "thursday": [
           {
             "open": "12:00",
-            "close": "18:00"
+            "close": "17:00"
           }
         ],
         "friday": [
           {
             "open": "12:00",
-            "close": "18:00"
+            "close": "17:00"
           }
         ],
         "saturday": [
           {
             "open": "12:00",
-            "close": "18:00"
+            "close": "17:00"
           }
         ],
         "sunday": []
@@ -1397,7 +1288,7 @@
       "public_visibility_notes": [],
       "source_website_url": "https://w-w-w.ar/index.php/es/edition/mundo-fofo",
       "source_instagram_url": "https://www.instagram.com/w_w_w_galeria/",
-      "last_checked_at": "2026-04-23",
+      "last_checked_at": "2026-04-24",
       "confidence_score": 0.85,
       "needs_review": false,
       "review_notes": [],
@@ -1406,22 +1297,16 @@
       "published_summary": "Ficha pública curada con base en web oficial y verificación editorial complementaria.",
       "fuente_exhibicion": "web oficial",
       "fuente_imagen": "web oficial",
-      "fecha_ultima_revision": "2026-04-23",
+      "fecha_ultima_revision": "2026-04-24",
       "conflicto_detectado": false,
       "image_source_selected": "website",
-      "hours_source_selected": "guías públicas coincidentes",
-      "hours_last_checked_at": "2026-04-23",
-      "hours_website_text": "",
+      "hours_source_selected": "web oficial",
+      "hours_last_checked_at": "2026-04-24",
+      "hours_website_text": "Lunes a sábado de 12 a 17 h",
       "hours_instagram_text": "",
-      "hours_google_maps_text": "Tuesday: 12:00–6:00 PM ... Saturday: 12:00–6:00 PM",
+      "hours_google_maps_text": "",
       "hours_conflict": false,
-      "hours_review_notes": [
-        "Meridiano agrega lunes con cita previa; VoyVeo publica el horario general de atención."
-      ],
-      "hours_status": "verified",
-      "hours_facebook_text": "",
-      "hours_guide_text": "Martes a sábado de 12 a 18hs",
-      "hours_verified_sources_count": 3
+      "hours_review_notes": []
     },
     {
       "id": "pasto",
@@ -1439,37 +1324,32 @@
       "instagram": "https://www.instagram.com/pastogaleria/",
       "description": "Galería y plataforma de difusión de arte contemporáneo latinoamericano con base en el sur de la ciudad.",
       "image_url": "http://www.pastogaleria.com.ar/imgs/facebook.jpg",
-      "hours": "Mar a Sáb 15:00–20:00",
+      "hours": "Miércoles a sábado de 14 a 19 h",
       "weekly_hours": {
         "monday": [],
-        "tuesday": [
-          {
-            "open": "15:00",
-            "close": "20:00"
-          }
-        ],
+        "tuesday": [],
         "wednesday": [
           {
-            "open": "15:00",
-            "close": "20:00"
+            "open": "14:00",
+            "close": "19:00"
           }
         ],
         "thursday": [
           {
-            "open": "15:00",
-            "close": "20:00"
+            "open": "14:00",
+            "close": "19:00"
           }
         ],
         "friday": [
           {
-            "open": "15:00",
-            "close": "20:00"
+            "open": "14:00",
+            "close": "19:00"
           }
         ],
         "saturday": [
           {
-            "open": "15:00",
-            "close": "20:00"
+            "open": "14:00",
+            "close": "19:00"
           }
         ],
         "sunday": []
@@ -1479,7 +1359,7 @@
       "public_visibility_notes": [],
       "source_website_url": "https://www.pastogaleria.com.ar/contacto.php",
       "source_instagram_url": "https://www.instagram.com/pastogaleria/",
-      "last_checked_at": "2026-04-23",
+      "last_checked_at": "2026-04-24",
       "confidence_score": 0.83,
       "needs_review": false,
       "review_notes": [],
@@ -1488,20 +1368,16 @@
       "published_summary": "Ficha pública curada con base en web oficial y verificación editorial complementaria.",
       "fuente_exhibicion": "web oficial",
       "fuente_imagen": "web oficial",
-      "fecha_ultima_revision": "2026-04-23",
+      "fecha_ultima_revision": "2026-04-24",
       "conflicto_detectado": false,
       "image_source_selected": "website",
-      "hours_source_selected": "guías públicas coincidentes",
-      "hours_last_checked_at": "2026-04-23",
-      "hours_website_text": "",
+      "hours_source_selected": "web oficial",
+      "hours_last_checked_at": "2026-04-24",
+      "hours_website_text": "Miércoles a sábado de 14 a 19 h",
       "hours_instagram_text": "",
       "hours_google_maps_text": "",
       "hours_conflict": false,
-      "hours_review_notes": [],
-      "hours_status": "verified",
-      "hours_facebook_text": "",
-      "hours_guide_text": "Martes a sábado de 15 a 20 hs.",
-      "hours_verified_sources_count": 2
+      "hours_review_notes": []
     },
     {
       "id": "piedras",
@@ -1519,22 +1395,42 @@
       "instagram": "",
       "description": "Galería de San Telmo con un programa contemporáneo atravesado por ficción, género, cuerpo y experimentación.",
       "image_url": "https://piedrasgaleria.com/wp-content/uploads/2026/04/Copia-de-CG_%C2%A1Dame-todo_Aerografia.-Acrilico-sobre-tela_-160-x-225-cm_2025.jpg",
-      "hours": "Verificar antes de visitar",
+      "hours": "Miércoles a sábado de 14 a 19 h",
       "weekly_hours": {
-        "monday": null,
-        "tuesday": null,
-        "wednesday": null,
-        "thursday": null,
-        "friday": null,
-        "saturday": null,
-        "sunday": null
+        "monday": [],
+        "tuesday": [],
+        "wednesday": [
+          {
+            "open": "14:00",
+            "close": "19:00"
+          }
+        ],
+        "thursday": [
+          {
+            "open": "14:00",
+            "close": "19:00"
+          }
+        ],
+        "friday": [
+          {
+            "open": "14:00",
+            "close": "19:00"
+          }
+        ],
+        "saturday": [
+          {
+            "open": "14:00",
+            "close": "19:00"
+          }
+        ],
+        "sunday": []
       },
       "public_visible": true,
       "public_visibility_status": "publicada",
       "public_visibility_notes": [],
       "source_website_url": "https://piedrasgaleria.com/info/",
       "source_instagram_url": "",
-      "last_checked_at": "2026-04-23",
+      "last_checked_at": "2026-04-24",
       "confidence_score": 0.91,
       "needs_review": false,
       "review_notes": [],
@@ -1543,22 +1439,16 @@
       "published_summary": "Ficha pública curada con base en web oficial y verificación editorial complementaria.",
       "fuente_exhibicion": "web oficial",
       "fuente_imagen": "web oficial",
-      "fecha_ultima_revision": "2026-04-23",
+      "fecha_ultima_revision": "2026-04-24",
       "conflicto_detectado": false,
       "image_source_selected": "website",
-      "hours_source_selected": "Verificar antes de visitar",
-      "hours_last_checked_at": "2026-04-23",
-      "hours_website_text": "Miércoles a sábado 14-19h o con cita previa",
+      "hours_source_selected": "web oficial",
+      "hours_last_checked_at": "2026-04-24",
+      "hours_website_text": "Miércoles a sábado de 14 a 19 h",
       "hours_instagram_text": "",
-      "hours_google_maps_text": "Wednesday 16:00 - 19:00 / Friday 16:00 - 19:00",
-      "hours_conflict": true,
-      "hours_review_notes": [
-        "El sitio oficial publica 14 a 19 h, pero directorios externos recuperan una sede y franja anteriores. Se recomienda verificar antes de visitar."
-      ],
-      "hours_status": "verify",
-      "hours_facebook_text": "",
-      "hours_guide_text": "Dirección anterior y sin horario explícito en fuentes secundarias recientes",
-      "hours_verified_sources_count": 0
+      "hours_google_maps_text": "",
+      "hours_conflict": false,
+      "hours_review_notes": []
     },
     {
       "id": "mnba",
@@ -1576,7 +1466,7 @@
       "instagram": "",
       "description": "Museo nacional con una programación fuerte de exposiciones temporarias junto a su acervo histórico.",
       "image_url": "https://www.bellasartes.gob.ar/static/assets/img/mnba-frente.jpg",
-      "hours": "Mar a Vie 11:00–19:30 · Sáb y Dom 10:00–19:30",
+      "hours": "Martes a viernes de 11 a 19:30 h. Sábados y domingos de 10 a 19:30 h",
       "weekly_hours": {
         "monday": [],
         "tuesday": [
@@ -1621,7 +1511,7 @@
       "public_visibility_notes": [],
       "source_website_url": "https://www.bellasartes.gob.ar/exhibiciones/",
       "source_instagram_url": "",
-      "last_checked_at": "2026-04-23",
+      "last_checked_at": "2026-04-24",
       "confidence_score": 0.95,
       "needs_review": false,
       "review_notes": [],
@@ -1630,20 +1520,16 @@
       "published_summary": "Ficha pública curada con base en web oficial y verificación editorial complementaria.",
       "fuente_exhibicion": "web oficial",
       "fuente_imagen": "web oficial",
-      "fecha_ultima_revision": "2026-04-23",
+      "fecha_ultima_revision": "2026-04-24",
       "conflicto_detectado": false,
       "image_source_selected": "website",
-      "hours_source_selected": "web oficial + Google Arts & Culture",
-      "hours_last_checked_at": "2026-04-23",
-      "hours_website_text": "Martes a viernes, de 11.00 a 19.30. Sábados y domingos, de 10.00 a 19.30.",
+      "hours_source_selected": "web oficial",
+      "hours_last_checked_at": "2026-04-24",
+      "hours_website_text": "Martes a viernes de 11 a 19:30 h. Sábados y domingos de 10 a 19:30 h",
       "hours_instagram_text": "",
-      "hours_google_maps_text": "Tuesday 11:00 – 19:30 ... Sunday 10:00 – 19:30",
+      "hours_google_maps_text": "",
       "hours_conflict": false,
-      "hours_review_notes": [],
-      "hours_status": "verified",
-      "hours_facebook_text": "",
-      "hours_guide_text": "Martes a viernes de 11 a 20. Sábados y domingos de 10 a 20.",
-      "hours_verified_sources_count": 3
+      "hours_review_notes": []
     },
     {
       "id": "moderno",
@@ -1661,52 +1547,22 @@
       "instagram": "",
       "description": "Museo de la ciudad dedicado al arte moderno y contemporáneo, con un programa de exposiciones, educación y archivo muy activo.",
       "image_url": "https://museomoderno.org/wp-content/uploads/2020/10/PortadaBasta.jpg",
-      "hours": "Lun, Mié a Vie 11:00–19:00 · Sáb y Dom 11:00–20:00",
+      "hours": "Horario sujeto a confirmación",
       "weekly_hours": {
-        "monday": [
-          {
-            "open": "11:00",
-            "close": "19:00"
-          }
-        ],
-        "tuesday": [],
-        "wednesday": [
-          {
-            "open": "11:00",
-            "close": "19:00"
-          }
-        ],
-        "thursday": [
-          {
-            "open": "11:00",
-            "close": "19:00"
-          }
-        ],
-        "friday": [
-          {
-            "open": "11:00",
-            "close": "19:00"
-          }
-        ],
-        "saturday": [
-          {
-            "open": "11:00",
-            "close": "20:00"
-          }
-        ],
-        "sunday": [
-          {
-            "open": "11:00",
-            "close": "20:00"
-          }
-        ]
+        "monday": null,
+        "tuesday": null,
+        "wednesday": null,
+        "thursday": null,
+        "friday": null,
+        "saturday": null,
+        "sunday": null
       },
       "public_visible": true,
       "public_visibility_status": "publicada",
       "public_visibility_notes": [],
       "source_website_url": "https://museomoderno.org/",
       "source_instagram_url": "",
-      "last_checked_at": "2026-04-23",
+      "last_checked_at": "2026-04-24",
       "confidence_score": 0.78,
       "needs_review": false,
       "review_notes": [
@@ -1717,20 +1573,16 @@
       "published_summary": "Ficha pública curada con base en web oficial y verificación editorial complementaria.",
       "fuente_exhibicion": "web oficial",
       "fuente_imagen": "web oficial",
-      "fecha_ultima_revision": "2026-04-23",
+      "fecha_ultima_revision": "2026-04-24",
       "conflicto_detectado": false,
       "image_source_selected": "website",
-      "hours_source_selected": "web oficial + GCBA",
-      "hours_last_checked_at": "2026-04-23",
-      "hours_website_text": "Lunes, miércoles, jueves y viernes: 11:00 a 19:00. Sábados, domingos y feriados: 11:00 a 20:00. Martes cerrado.",
+      "hours_source_selected": "web oficial",
+      "hours_last_checked_at": "2026-04-24",
+      "hours_website_text": "Horario sujeto a confirmación",
       "hours_instagram_text": "",
       "hours_google_maps_text": "",
       "hours_conflict": false,
-      "hours_review_notes": [],
-      "hours_status": "verified",
-      "hours_facebook_text": "",
-      "hours_guide_text": "Lunes a viernes, 11 a 19 h | Sábados, domingos y feriados, 11 a 20 h | Martes cerrado.",
-      "hours_verified_sources_count": 2
+      "hours_review_notes": []
     },
     {
       "id": "decorativo",
@@ -1747,8 +1599,8 @@
       "website": "https://museoartedecorativo.cultura.gob.ar/",
       "instagram": "",
       "description": "Casa-museo nacional con colección permanente y exhibiciones temporarias ligadas al diseño, patrimonio y artes decorativas.",
-      "image_url": "",
-      "hours": "Mié a Dom 13:00–19:00",
+      "image_url": "https://museoartedecorativo.cultura.gob.ar/media/uploads/site-11/destacados/.thumbnails/ramiro_pasch_-_logos.jpg/ramiro_pasch_-_logos-1500x0-no-upscale.jpg",
+      "hours": "Miércoles a domingos de 13 a 19 h",
       "weekly_hours": {
         "monday": [],
         "tuesday": [],
@@ -1788,7 +1640,7 @@
       "public_visibility_notes": [],
       "source_website_url": "https://museoartedecorativo.cultura.gob.ar/exhibiciones/",
       "source_instagram_url": "",
-      "last_checked_at": "2026-04-23",
+      "last_checked_at": "2026-04-24",
       "confidence_score": 0.84,
       "needs_review": false,
       "review_notes": [],
@@ -1796,21 +1648,17 @@
       "published_from": "curaduría editorial",
       "published_summary": "Ficha pública curada con base en web oficial y verificación editorial complementaria.",
       "fuente_exhibicion": "web oficial",
-      "fuente_imagen": "Fallback VoyVeo sutil",
-      "fecha_ultima_revision": "2026-04-23",
+      "fuente_imagen": "web oficial",
+      "fecha_ultima_revision": "2026-04-24",
       "conflicto_detectado": false,
-      "image_source_selected": "fallback",
-      "hours_source_selected": "web oficial + guía turística",
-      "hours_last_checked_at": "2026-04-23",
-      "hours_website_text": "Miércoles a domingos, de 13 a 19 hs. Último ingreso 18:30 hs.",
+      "image_source_selected": "website",
+      "hours_source_selected": "web oficial",
+      "hours_last_checked_at": "2026-04-24",
+      "hours_website_text": "Miércoles a domingos de 13 a 19 h",
       "hours_instagram_text": "",
-      "hours_google_maps_text": "miércoles: 13:00–19:00 ... domingo: 13:00–19:00",
+      "hours_google_maps_text": "",
       "hours_conflict": false,
-      "hours_review_notes": [],
-      "hours_status": "verified",
-      "hours_facebook_text": "",
-      "hours_guide_text": "Miércoles a domingos, de 13 a 19 hs.",
-      "hours_verified_sources_count": 3
+      "hours_review_notes": []
     },
     {
       "id": "sivori",
@@ -1828,7 +1676,7 @@
       "instagram": "",
       "description": "Museo de arte argentino de los siglos XX y XXI, con exposiciones temporarias y concursos históricos de la ciudad.",
       "image_url": "https://static.buenosaires.gob.ar/sites/default/files/styles/card_img_top/public/2026-03/1%C2%B0%20premio%20-%20Nirino.jpg?itok=3F-65Z8Z",
-      "hours": "Lun, Mié a Vie 11:00–19:00 · Sáb y Dom 11:00–20:00",
+      "hours": "Lunes, miércoles, jueves y viernes de 11 a 19 h. Sábados, domingos y feriados de 11 a 20 h",
       "weekly_hours": {
         "monday": [
           {
@@ -1873,7 +1721,7 @@
       "public_visibility_notes": [],
       "source_website_url": "https://buenosaires.gob.ar/museosivori/exposiciones-en-el-museo-sivori",
       "source_instagram_url": "",
-      "last_checked_at": "2026-04-23",
+      "last_checked_at": "2026-04-24",
       "confidence_score": 0.93,
       "needs_review": false,
       "review_notes": [],
@@ -1882,20 +1730,16 @@
       "published_summary": "Ficha pública curada con base en web oficial y verificación editorial complementaria.",
       "fuente_exhibicion": "web oficial",
       "fuente_imagen": "web oficial",
-      "fecha_ultima_revision": "2026-04-23",
+      "fecha_ultima_revision": "2026-04-24",
       "conflicto_detectado": false,
       "image_source_selected": "website",
-      "hours_source_selected": "web oficial + GCBA",
-      "hours_last_checked_at": "2026-04-23",
-      "hours_website_text": "Lunes, miércoles, jueves y viernes de 11 a 19 h. Sábados, domingos y feriados de 11 a 20 h. Martes cerrado.",
+      "hours_source_selected": "web oficial",
+      "hours_last_checked_at": "2026-04-24",
+      "hours_website_text": "Lunes, miércoles, jueves y viernes de 11 a 19 h. Sábados, domingos y feriados de 11 a 20 h",
       "hours_instagram_text": "",
       "hours_google_maps_text": "",
       "hours_conflict": false,
-      "hours_review_notes": [],
-      "hours_status": "verified",
-      "hours_facebook_text": "",
-      "hours_guide_text": "Lunes, miércoles, jueves y viernes de 11 a 19 h. Sábados, domingos y feriados de 11 a 20 h.",
-      "hours_verified_sources_count": 2
+      "hours_review_notes": []
     },
     {
       "id": "jose-hernandez",
@@ -1913,7 +1757,7 @@
       "instagram": "",
       "description": "Museo público dedicado al arte popular argentino, con muestras que conectan tradición artesanal y prácticas contemporáneas.",
       "image_url": "https://static.buenosaires.gob.ar/sites/default/files/2026-03/DSC_5514.JPG",
-      "hours": "Lun, Mié a Vie 11:00–19:00 · Sáb y Dom 11:00–20:00",
+      "hours": "Lunes, miércoles, jueves y viernes de 11 a 19 h. Sábados, domingos y feriados de 11 a 20 h",
       "weekly_hours": {
         "monday": [
           {
@@ -1958,7 +1802,7 @@
       "public_visibility_notes": [],
       "source_website_url": "https://buenosaires.gob.ar/cultura/museos/museojosehernandez",
       "source_instagram_url": "",
-      "last_checked_at": "2026-04-23",
+      "last_checked_at": "2026-04-24",
       "confidence_score": 0.93,
       "needs_review": false,
       "review_notes": [],
@@ -1967,22 +1811,16 @@
       "published_summary": "Ficha pública curada con base en web oficial y verificación editorial complementaria.",
       "fuente_exhibicion": "web oficial",
       "fuente_imagen": "web oficial",
-      "fecha_ultima_revision": "2026-04-23",
+      "fecha_ultima_revision": "2026-04-24",
       "conflicto_detectado": false,
       "image_source_selected": "website",
-      "hours_source_selected": "web oficial + Google Arts & Culture",
-      "hours_last_checked_at": "2026-04-23",
-      "hours_website_text": "Lunes, miércoles, jueves y viernes de 11 a 19 h. Sábados, domingos y feriados de 11 a 20 h. Martes cerrado.",
+      "hours_source_selected": "web oficial",
+      "hours_last_checked_at": "2026-04-24",
+      "hours_website_text": "Lunes, miércoles, jueves y viernes de 11 a 19 h. Sábados, domingos y feriados de 11 a 20 h",
       "hours_instagram_text": "",
-      "hours_google_maps_text": "Monday 11:00–19:00 ... Sunday 11:00–20:00",
-      "hours_conflict": true,
-      "hours_review_notes": [
-        "Algunas guías turísticas antiguas muestran otra franja. Se priorizó el horario oficial más reciente."
-      ],
-      "hours_status": "verified",
-      "hours_facebook_text": "",
-      "hours_guide_text": "Lunes, miércoles, jueves y viernes de 11 a 19 h | Sábados, domingos y feriados de 11 a 20 h | Martes cerrado.",
-      "hours_verified_sources_count": 3
+      "hours_google_maps_text": "",
+      "hours_conflict": false,
+      "hours_review_notes": []
     },
     {
       "id": "palais",
@@ -1999,23 +1837,48 @@
       "website": "https://palaisdeglace.cultura.gob.ar/",
       "instagram": "",
       "description": "Institución pública con programación itinerante y exposiciones de la colección del Palais y del Salón Nacional.",
-      "image_url": "",
-      "hours": "Verificar antes de visitar",
+      "image_url": "https://palaisdeglace.cultura.gob.ar/media/uploads/site-37/destacados/.thumbnails/inercia_10-2.jpeg/inercia_10-2-1500x0-no-upscale.jpeg",
+      "hours": "Miércoles a domingos de 11 a 18 h",
       "weekly_hours": {
-        "monday": null,
-        "tuesday": null,
-        "wednesday": null,
-        "thursday": null,
-        "friday": null,
-        "saturday": null,
-        "sunday": null
+        "monday": [],
+        "tuesday": [],
+        "wednesday": [
+          {
+            "open": "11:00",
+            "close": "18:00"
+          }
+        ],
+        "thursday": [
+          {
+            "open": "11:00",
+            "close": "18:00"
+          }
+        ],
+        "friday": [
+          {
+            "open": "11:00",
+            "close": "18:00"
+          }
+        ],
+        "saturday": [
+          {
+            "open": "11:00",
+            "close": "18:00"
+          }
+        ],
+        "sunday": [
+          {
+            "open": "11:00",
+            "close": "18:00"
+          }
+        ]
       },
       "public_visible": true,
       "public_visibility_status": "publicada",
       "public_visibility_notes": [],
       "source_website_url": "https://palaisdeglace.cultura.gob.ar/exhibiciones/",
       "source_instagram_url": "",
-      "last_checked_at": "2026-04-23",
+      "last_checked_at": "2026-04-24",
       "confidence_score": 0.9,
       "needs_review": false,
       "review_notes": [],
@@ -2023,23 +1886,17 @@
       "published_from": "curaduría editorial",
       "published_summary": "La ubicación pública refleja la sede de la muestra actualmente visitable.",
       "fuente_exhibicion": "web oficial",
-      "fuente_imagen": "Fallback VoyVeo sutil",
-      "fecha_ultima_revision": "2026-04-23",
+      "fuente_imagen": "web oficial",
+      "fecha_ultima_revision": "2026-04-24",
       "conflicto_detectado": false,
-      "image_source_selected": "fallback",
-      "hours_source_selected": "Verificar antes de visitar",
-      "hours_last_checked_at": "2026-04-23",
-      "hours_website_text": "El Palais publica 14 a 21 h en Viamonte 525 para su sede institucional.",
+      "image_source_selected": "website",
+      "hours_source_selected": "web oficial",
+      "hours_last_checked_at": "2026-04-24",
+      "hours_website_text": "Miércoles a domingos de 11 a 18 h",
       "hours_instagram_text": "",
       "hours_google_maps_text": "",
-      "hours_conflict": true,
-      "hours_review_notes": [
-        "Las páginas oficiales distinguen sede institucional y sede expositiva actual, con franjas distintas dentro del mismo ecosistema. Se recomienda verificar antes de visitar."
-      ],
-      "hours_status": "verify",
-      "hours_facebook_text": "",
-      "hours_guide_text": "La muestra Inercia en Perú 222 / Manzana de las Luces publica miércoles a domingos 11 a 18 h o 12 a 19 h según la página.",
-      "hours_verified_sources_count": 0
+      "hours_conflict": false,
+      "hours_review_notes": []
     }
   ],
   "exhibitions": [
@@ -2066,7 +1923,7 @@
       "public_visibility_notes": [],
       "source_website_url": "https://www.cassiahouseart.com/us/exhibitions/",
       "source_instagram_url": "",
-      "last_checked_at": "2026-04-23",
+      "last_checked_at": "2026-04-24",
       "confidence_score": 0.88,
       "needs_review": false,
       "review_notes": [],
@@ -2075,7 +1932,7 @@
       "published_summary": "Registro público cargado desde fuente pública confiable.",
       "fuente_exhibicion": "web oficial",
       "fuente_imagen": "web oficial",
-      "fecha_ultima_revision": "2026-04-23",
+      "fecha_ultima_revision": "2026-04-24",
       "conflicto_detectado": false,
       "image_source_selected": "website"
     },
@@ -2099,7 +1956,7 @@
       "public_visibility_notes": [],
       "source_website_url": "https://hachegaleria.com/",
       "source_instagram_url": "",
-      "last_checked_at": "2026-04-23",
+      "last_checked_at": "2026-04-24",
       "confidence_score": 0.88,
       "needs_review": false,
       "review_notes": [],
@@ -2108,7 +1965,7 @@
       "published_summary": "Registro público cargado desde fuente pública confiable.",
       "fuente_exhibicion": "web oficial",
       "fuente_imagen": "web oficial",
-      "fecha_ultima_revision": "2026-04-23",
+      "fecha_ultima_revision": "2026-04-24",
       "conflicto_detectado": false,
       "image_source_selected": "website"
     },
@@ -2132,7 +1989,7 @@
       "public_visibility_notes": [],
       "source_website_url": "https://norafisch.com/muestras/",
       "source_instagram_url": "",
-      "last_checked_at": "2026-04-23",
+      "last_checked_at": "2026-04-24",
       "confidence_score": 0.88,
       "needs_review": false,
       "review_notes": [],
@@ -2141,7 +1998,7 @@
       "published_summary": "Registro público cargado desde fuente pública confiable.",
       "fuente_exhibicion": "web oficial",
       "fuente_imagen": "web oficial",
-      "fecha_ultima_revision": "2026-04-23",
+      "fecha_ultima_revision": "2026-04-24",
       "conflicto_detectado": false,
       "image_source_selected": "website"
     },
@@ -2165,7 +2022,7 @@
       "public_visibility_notes": [],
       "source_website_url": "https://norafisch.com/muestras/",
       "source_instagram_url": "",
-      "last_checked_at": "2026-04-23",
+      "last_checked_at": "2026-04-24",
       "confidence_score": 0.88,
       "needs_review": false,
       "review_notes": [],
@@ -2174,7 +2031,7 @@
       "published_summary": "Registro público cargado desde fuente pública confiable.",
       "fuente_exhibicion": "web oficial",
       "fuente_imagen": "web oficial",
-      "fecha_ultima_revision": "2026-04-23",
+      "fecha_ultima_revision": "2026-04-24",
       "conflicto_detectado": false,
       "image_source_selected": "website"
     },
@@ -2192,13 +2049,13 @@
       "description": "Exhibición individual listada como On View en el archivo reciente de Miranda Bosch.",
       "status": "past",
       "featured_rank": 79,
-      "image_url": "",
+      "image_url": "https://art.mirandabosch.com/wp-content/uploads/2025/11/2b1f4997-051f-480b-ba6a-f3cafd25eb88-1.jpg",
       "public_visible": true,
       "public_visibility_status": "publicada",
       "public_visibility_notes": [],
       "source_website_url": "https://art.mirandabosch.com/exhibiciones/",
       "source_instagram_url": "",
-      "last_checked_at": "2026-04-23",
+      "last_checked_at": "2026-04-24",
       "confidence_score": 0.78,
       "needs_review": false,
       "review_notes": [],
@@ -2206,10 +2063,10 @@
       "published_from": "curaduría editorial",
       "published_summary": "Registro público cargado desde fuente pública confiable.",
       "fuente_exhibicion": "web oficial",
-      "fuente_imagen": "Fallback VoyVeo sutil",
-      "fecha_ultima_revision": "2026-04-23",
+      "fuente_imagen": "web oficial",
+      "fecha_ultima_revision": "2026-04-24",
       "conflicto_detectado": false,
-      "image_source_selected": "fallback"
+      "image_source_selected": "website"
     },
     {
       "id": "adentro-afuera",
@@ -2231,7 +2088,7 @@
       "public_visibility_notes": [],
       "source_website_url": "https://ruthbenzacar.com/en/exhibitions/adentro-afuera/",
       "source_instagram_url": "",
-      "last_checked_at": "2026-04-23",
+      "last_checked_at": "2026-04-24",
       "confidence_score": 0.88,
       "needs_review": false,
       "review_notes": [],
@@ -2240,7 +2097,7 @@
       "published_summary": "Registro público cargado desde fuente pública confiable.",
       "fuente_exhibicion": "web oficial",
       "fuente_imagen": "web oficial",
-      "fecha_ultima_revision": "2026-04-23",
+      "fecha_ultima_revision": "2026-04-24",
       "conflicto_detectado": false,
       "image_source_selected": "website"
     },
@@ -2266,7 +2123,7 @@
       "public_visibility_notes": [],
       "source_website_url": "https://ruthbenzacar.com/en/exhibitions/colectiva/",
       "source_instagram_url": "",
-      "last_checked_at": "2026-04-23",
+      "last_checked_at": "2026-04-24",
       "confidence_score": 0.78,
       "needs_review": false,
       "review_notes": [],
@@ -2275,7 +2132,7 @@
       "published_summary": "Registro público cargado desde fuente pública confiable.",
       "fuente_exhibicion": "web oficial",
       "fuente_imagen": "web oficial",
-      "fecha_ultima_revision": "2026-04-23",
+      "fecha_ultima_revision": "2026-04-24",
       "conflicto_detectado": false,
       "image_source_selected": "website"
     },
@@ -2299,7 +2156,7 @@
       "public_visibility_notes": [],
       "source_website_url": "https://www.barro.cc/es",
       "source_instagram_url": "",
-      "last_checked_at": "2026-04-23",
+      "last_checked_at": "2026-04-24",
       "confidence_score": 0.88,
       "needs_review": false,
       "review_notes": [],
@@ -2308,7 +2165,7 @@
       "published_summary": "Registro público cargado desde fuente pública confiable.",
       "fuente_exhibicion": "web oficial",
       "fuente_imagen": "web oficial",
-      "fecha_ultima_revision": "2026-04-23",
+      "fecha_ultima_revision": "2026-04-24",
       "conflicto_detectado": false,
       "image_source_selected": "website"
     },
@@ -2332,7 +2189,7 @@
       "public_visibility_notes": [],
       "source_website_url": "https://guillermomena.com/",
       "source_instagram_url": "",
-      "last_checked_at": "2026-04-23",
+      "last_checked_at": "2026-04-24",
       "confidence_score": 0.78,
       "needs_review": false,
       "review_notes": [],
@@ -2341,7 +2198,7 @@
       "published_summary": "Registro público cargado desde fuente pública confiable.",
       "fuente_exhibicion": "web oficial",
       "fuente_imagen": "web oficial",
-      "fecha_ultima_revision": "2026-04-23",
+      "fecha_ultima_revision": "2026-04-24",
       "conflicto_detectado": false,
       "image_source_selected": "website"
     },
@@ -2367,7 +2224,7 @@
       "public_visibility_notes": [],
       "source_website_url": "https://admin.praxis-art.com/en/exhibitions/elisa-lutteral-diego-miccige-macarena-rojas-osterling-soft-architectures/",
       "source_instagram_url": "",
-      "last_checked_at": "2026-04-23",
+      "last_checked_at": "2026-04-24",
       "confidence_score": 0.78,
       "needs_review": false,
       "review_notes": [],
@@ -2376,7 +2233,7 @@
       "published_summary": "Registro público cargado desde fuente pública confiable.",
       "fuente_exhibicion": "web oficial",
       "fuente_imagen": "web oficial",
-      "fecha_ultima_revision": "2026-04-23",
+      "fecha_ultima_revision": "2026-04-24",
       "conflicto_detectado": false,
       "image_source_selected": "website"
     },
@@ -2400,7 +2257,7 @@
       "public_visibility_notes": [],
       "source_website_url": "https://www.delinfinito.com/novedades/galeria-del-infinito-en-este-arte-2026/",
       "source_instagram_url": "",
-      "last_checked_at": "2026-04-23",
+      "last_checked_at": "2026-04-24",
       "confidence_score": 0.78,
       "needs_review": false,
       "review_notes": [],
@@ -2409,7 +2266,7 @@
       "published_summary": "Registro público cargado desde fuente pública confiable.",
       "fuente_exhibicion": "web oficial",
       "fuente_imagen": "web oficial",
-      "fecha_ultima_revision": "2026-04-23",
+      "fecha_ultima_revision": "2026-04-24",
       "conflicto_detectado": false,
       "image_source_selected": "website"
     },
@@ -2437,7 +2294,7 @@
       "public_visibility_notes": [],
       "source_website_url": "https://www.mapa.art/copia-de-oda-5",
       "source_instagram_url": "",
-      "last_checked_at": "2026-04-23",
+      "last_checked_at": "2026-04-24",
       "confidence_score": 0.88,
       "needs_review": true,
       "review_notes": [
@@ -2448,7 +2305,7 @@
       "published_summary": "Registro público cargado desde fuente pública confiable.",
       "fuente_exhibicion": "web oficial",
       "fuente_imagen": "web oficial",
-      "fecha_ultima_revision": "2026-04-23",
+      "fecha_ultima_revision": "2026-04-24",
       "conflicto_detectado": false,
       "image_source_selected": "website"
     },
@@ -2468,13 +2325,13 @@
       "description": "Exposición en torno a naturaleza, materia y tiempo, citada en la agenda cultural de abril de 2026.",
       "status": "current",
       "featured_rank": 82,
-      "image_url": "",
+      "image_url": "https://acromaticarevista.com/wp-content/uploads/2025/08/Galeria-Cecilia-Caballero.jpeg",
       "public_visible": true,
       "public_visibility_status": "publicada",
       "public_visibility_notes": [],
       "source_website_url": "https://www.infobae.com/cultura/agenda-cultura/2026/03/13/guia-de-arte-y-cultura-semana-del-13-al-20-de-marzo-de-2026/?outputType=amp-type",
       "source_instagram_url": "",
-      "last_checked_at": "2026-04-23",
+      "last_checked_at": "2026-04-24",
       "confidence_score": 0.88,
       "needs_review": false,
       "review_notes": [],
@@ -2482,10 +2339,10 @@
       "published_from": "curaduría editorial",
       "published_summary": "Registro público cargado desde fuente pública confiable.",
       "fuente_exhibicion": "web oficial",
-      "fuente_imagen": "Fallback VoyVeo sutil",
-      "fecha_ultima_revision": "2026-04-23",
+      "fuente_imagen": "web oficial",
+      "fecha_ultima_revision": "2026-04-24",
       "conflicto_detectado": false,
-      "image_source_selected": "fallback"
+      "image_source_selected": "website"
     },
     {
       "id": "el-arte-de-regalar",
@@ -2511,13 +2368,13 @@
       "description": "Selección de obras presentada por Rubbers como propuesta de fin de año.",
       "status": "past",
       "featured_rank": 68,
-      "image_url": "",
+      "image_url": "http://rubbers.com.ar/wp-content/uploads/2020/04/gale-baja.jpg",
       "public_visible": true,
       "public_visibility_status": "publicada",
       "public_visibility_notes": [],
       "source_website_url": "https://www.infobae.com/cultura/2025/12/17/las-galerias-y-espacios-de-arte-de-buenos-aires-impulsan-ferias-accesibles-para-las-fiestas/",
       "source_instagram_url": "",
-      "last_checked_at": "2026-04-23",
+      "last_checked_at": "2026-04-24",
       "confidence_score": 0.78,
       "needs_review": false,
       "review_notes": [],
@@ -2525,10 +2382,10 @@
       "published_from": "curaduría editorial",
       "published_summary": "Registro público cargado desde fuente pública confiable.",
       "fuente_exhibicion": "web oficial",
-      "fuente_imagen": "Fallback VoyVeo sutil",
-      "fecha_ultima_revision": "2026-04-23",
+      "fuente_imagen": "web oficial",
+      "fecha_ultima_revision": "2026-04-24",
       "conflicto_detectado": false,
-      "image_source_selected": "fallback"
+      "image_source_selected": "website"
     },
     {
       "id": "happy-house",
@@ -2544,13 +2401,13 @@
       "description": "Exhibición temporal destacada por la sede porteña de The White Lodge.",
       "status": "current",
       "featured_rank": 77,
-      "image_url": "",
+      "image_url": "https://dcdn-us.mitiendanube.com/stores/167/285/products/alcaucil-the-white-lodge-6c627d721817ad8b1b17436863109203-1024-1024.webp",
       "public_visible": true,
       "public_visibility_status": "publicada",
       "public_visibility_notes": [],
       "source_website_url": "https://thewhitelodge.art/TWL-BUENOS-AIRES",
       "source_instagram_url": "",
-      "last_checked_at": "2026-04-23",
+      "last_checked_at": "2026-04-24",
       "confidence_score": 0.88,
       "needs_review": false,
       "review_notes": [],
@@ -2558,10 +2415,10 @@
       "published_from": "curaduría editorial",
       "published_summary": "Registro público cargado desde fuente pública confiable.",
       "fuente_exhibicion": "web oficial",
-      "fuente_imagen": "Fallback VoyVeo sutil",
-      "fecha_ultima_revision": "2026-04-23",
+      "fuente_imagen": "web oficial",
+      "fecha_ultima_revision": "2026-04-24",
       "conflicto_detectado": false,
-      "image_source_selected": "fallback"
+      "image_source_selected": "website"
     },
     {
       "id": "showroom-cosmocosa",
@@ -2582,13 +2439,13 @@
       "description": "Apertura de showroom con obras de artistas modernos y contemporáneos en el espacio de Recoleta.",
       "status": "current",
       "featured_rank": 67,
-      "image_url": "",
+      "image_url": "http://www.cosmocosa.com/wp-content/uploads/FACHADA-COSMOCOSA-FINAL2.jpg",
       "public_visible": true,
       "public_visibility_status": "publicada",
       "public_visibility_notes": [],
       "source_website_url": "https://www.cosmocosa.com/cosmocosa-2/1348/?lang=en",
       "source_instagram_url": "",
-      "last_checked_at": "2026-04-23",
+      "last_checked_at": "2026-04-24",
       "confidence_score": 0.88,
       "needs_review": false,
       "review_notes": [],
@@ -2596,10 +2453,10 @@
       "published_from": "curaduría editorial",
       "published_summary": "Registro público cargado desde fuente pública confiable.",
       "fuente_exhibicion": "web oficial",
-      "fuente_imagen": "Fallback VoyVeo sutil",
-      "fecha_ultima_revision": "2026-04-23",
+      "fuente_imagen": "web oficial",
+      "fecha_ultima_revision": "2026-04-24",
       "conflicto_detectado": false,
-      "image_source_selected": "fallback"
+      "image_source_selected": "website"
     },
     {
       "id": "entre-dos-tierras",
@@ -2623,13 +2480,13 @@
       "description": "Exposición colectiva que acompañó la transición de la galería hacia su nueva sede en Buenos Aires.",
       "status": "current",
       "featured_rank": 66,
-      "image_url": "",
+      "image_url": "https://galeria-phuyu.com/wp-content/uploads/2026/02/Flyer-Ninfas.png",
       "public_visible": true,
       "public_visibility_status": "publicada",
       "public_visibility_notes": [],
       "source_website_url": "https://galeria-phuyu.com/galeria/",
       "source_instagram_url": "",
-      "last_checked_at": "2026-04-23",
+      "last_checked_at": "2026-04-24",
       "confidence_score": 0.88,
       "needs_review": false,
       "review_notes": [],
@@ -2637,10 +2494,10 @@
       "published_from": "curaduría editorial",
       "published_summary": "Registro público cargado desde fuente pública confiable.",
       "fuente_exhibicion": "web oficial",
-      "fuente_imagen": "Fallback VoyVeo sutil",
-      "fecha_ultima_revision": "2026-04-23",
+      "fuente_imagen": "web oficial",
+      "fecha_ultima_revision": "2026-04-24",
       "conflicto_detectado": false,
-      "image_source_selected": "fallback"
+      "image_source_selected": "website"
     },
     {
       "id": "el-corazon-de-lo-que-existe",
@@ -2656,13 +2513,13 @@
       "description": "Exhibición individual curada por Joaquín Rodríguez en la nueva sede de Grasa.",
       "status": "past",
       "featured_rank": 71,
-      "image_url": "",
+      "image_url": "https://freight.cargo.site/w/1200/i/8f3aff89a3222bb4ad13d36eb3656594a9dbd45cfe606440e613bf44b9b40bb9/AmparoViau_El-corazon-de-lo-que-existe-1.JPG",
       "public_visible": true,
       "public_visibility_status": "publicada",
       "public_visibility_notes": [],
       "source_website_url": "https://galeriagrasa.com/El-corazon-de-lo-que-existe",
       "source_instagram_url": "",
-      "last_checked_at": "2026-04-23",
+      "last_checked_at": "2026-04-24",
       "confidence_score": 0.78,
       "needs_review": false,
       "review_notes": [],
@@ -2670,10 +2527,10 @@
       "published_from": "curaduría editorial",
       "published_summary": "Registro público cargado desde fuente pública confiable.",
       "fuente_exhibicion": "web oficial",
-      "fuente_imagen": "Fallback VoyVeo sutil",
-      "fecha_ultima_revision": "2026-04-23",
+      "fuente_imagen": "web oficial",
+      "fecha_ultima_revision": "2026-04-24",
       "conflicto_detectado": false,
-      "image_source_selected": "fallback"
+      "image_source_selected": "website"
     },
     {
       "id": "centenario-van-riel",
@@ -2692,13 +2549,13 @@
       "description": "Presentación pública por el centenario de la galería más antigua de Buenos Aires.",
       "status": "past",
       "featured_rank": 62,
-      "image_url": "",
+      "image_url": "http://galeriavanriel.com.ar/uploads/muestras/thumb_69d9481ef4099.png",
       "public_visible": true,
       "public_visibility_status": "publicada",
       "public_visibility_notes": [],
       "source_website_url": "https://bellasartes.gob.ar/agenda/vanriel/",
       "source_instagram_url": "",
-      "last_checked_at": "2026-04-23",
+      "last_checked_at": "2026-04-24",
       "confidence_score": 0.78,
       "needs_review": false,
       "review_notes": [],
@@ -2706,10 +2563,10 @@
       "published_from": "curaduría editorial",
       "published_summary": "Registro público cargado desde fuente pública confiable.",
       "fuente_exhibicion": "web oficial",
-      "fuente_imagen": "Fallback VoyVeo sutil",
-      "fecha_ultima_revision": "2026-04-23",
+      "fuente_imagen": "web oficial",
+      "fecha_ultima_revision": "2026-04-24",
       "conflicto_detectado": false,
-      "image_source_selected": "fallback"
+      "image_source_selected": "website"
     },
     {
       "id": "mundo-fofo",
@@ -2731,7 +2588,7 @@
       "public_visibility_notes": [],
       "source_website_url": "https://w-w-w.ar/index.php/es/edition/mundo-fofo",
       "source_instagram_url": "",
-      "last_checked_at": "2026-04-23",
+      "last_checked_at": "2026-04-24",
       "confidence_score": 0.78,
       "needs_review": false,
       "review_notes": [],
@@ -2740,7 +2597,7 @@
       "published_summary": "Registro público cargado desde fuente pública confiable.",
       "fuente_exhibicion": "web oficial",
       "fuente_imagen": "web oficial",
-      "fecha_ultima_revision": "2026-04-23",
+      "fecha_ultima_revision": "2026-04-24",
       "conflicto_detectado": false,
       "image_source_selected": "website"
     },
@@ -2764,7 +2621,7 @@
       "public_visibility_notes": [],
       "source_website_url": "https://www.pastogaleria.com.ar/exhibiciones.php?i=112",
       "source_instagram_url": "",
-      "last_checked_at": "2026-04-23",
+      "last_checked_at": "2026-04-24",
       "confidence_score": 0.78,
       "needs_review": false,
       "review_notes": [],
@@ -2773,7 +2630,7 @@
       "published_summary": "Registro público cargado desde fuente pública confiable.",
       "fuente_exhibicion": "web oficial",
       "fuente_imagen": "web oficial",
-      "fecha_ultima_revision": "2026-04-23",
+      "fecha_ultima_revision": "2026-04-24",
       "conflicto_detectado": false,
       "image_source_selected": "website"
     },
@@ -2797,7 +2654,7 @@
       "public_visibility_notes": [],
       "source_website_url": "https://piedrasgaleria.com/exhibicion/retratos/",
       "source_instagram_url": "",
-      "last_checked_at": "2026-04-23",
+      "last_checked_at": "2026-04-24",
       "confidence_score": 0.88,
       "needs_review": false,
       "review_notes": [],
@@ -2806,7 +2663,7 @@
       "published_summary": "Registro público cargado desde fuente pública confiable.",
       "fuente_exhibicion": "web oficial",
       "fuente_imagen": "web oficial",
-      "fecha_ultima_revision": "2026-04-23",
+      "fecha_ultima_revision": "2026-04-24",
       "conflicto_detectado": false,
       "image_source_selected": "website"
     },
@@ -2830,7 +2687,7 @@
       "public_visibility_notes": [],
       "source_website_url": "https://www.bellasartes.gob.ar/exhibiciones/",
       "source_instagram_url": "",
-      "last_checked_at": "2026-04-23",
+      "last_checked_at": "2026-04-24",
       "confidence_score": 0.88,
       "needs_review": false,
       "review_notes": [],
@@ -2839,7 +2696,7 @@
       "published_summary": "Registro público cargado desde fuente pública confiable.",
       "fuente_exhibicion": "web oficial",
       "fuente_imagen": "web oficial",
-      "fecha_ultima_revision": "2026-04-23",
+      "fecha_ultima_revision": "2026-04-24",
       "conflicto_detectado": false,
       "image_source_selected": "website"
     },
@@ -2863,7 +2720,7 @@
       "public_visibility_notes": [],
       "source_website_url": "https://www.bellasartes.gob.ar/exhibiciones/",
       "source_instagram_url": "",
-      "last_checked_at": "2026-04-23",
+      "last_checked_at": "2026-04-24",
       "confidence_score": 0.88,
       "needs_review": false,
       "review_notes": [],
@@ -2872,7 +2729,7 @@
       "published_summary": "Registro público cargado desde fuente pública confiable.",
       "fuente_exhibicion": "web oficial",
       "fuente_imagen": "web oficial",
-      "fecha_ultima_revision": "2026-04-23",
+      "fecha_ultima_revision": "2026-04-24",
       "conflicto_detectado": false,
       "image_source_selected": "website"
     },
@@ -2896,7 +2753,7 @@
       "public_visibility_notes": [],
       "source_website_url": "https://museomoderno.org/",
       "source_instagram_url": "",
-      "last_checked_at": "2026-04-23",
+      "last_checked_at": "2026-04-24",
       "confidence_score": 0.88,
       "needs_review": false,
       "review_notes": [],
@@ -2905,7 +2762,7 @@
       "published_summary": "Registro público cargado desde fuente pública confiable.",
       "fuente_exhibicion": "web oficial",
       "fuente_imagen": "web oficial",
-      "fecha_ultima_revision": "2026-04-23",
+      "fecha_ultima_revision": "2026-04-24",
       "conflicto_detectado": false,
       "image_source_selected": "website"
     },
@@ -2923,13 +2780,13 @@
       "description": "Muestra destacada en la sección de exhibiciones del Museo Nacional de Arte Decorativo.",
       "status": "current",
       "featured_rank": 69,
-      "image_url": "",
+      "image_url": "https://museoartedecorativo.cultura.gob.ar/media/uploads/site-11/destacados/.thumbnails/ramiro_pasch_-_logos.jpg/ramiro_pasch_-_logos-1500x0-no-upscale.jpg",
       "public_visible": true,
       "public_visibility_status": "publicada",
       "public_visibility_notes": [],
       "source_website_url": "https://museoartedecorativo.cultura.gob.ar/exhibiciones/",
       "source_instagram_url": "",
-      "last_checked_at": "2026-04-23",
+      "last_checked_at": "2026-04-24",
       "confidence_score": 0.88,
       "needs_review": true,
       "review_notes": [
@@ -2939,10 +2796,10 @@
       "published_from": "curaduría editorial",
       "published_summary": "Registro público cargado desde fuente pública confiable.",
       "fuente_exhibicion": "web oficial",
-      "fuente_imagen": "Fallback VoyVeo sutil",
-      "fecha_ultima_revision": "2026-04-23",
+      "fuente_imagen": "web oficial",
+      "fecha_ultima_revision": "2026-04-24",
       "conflicto_detectado": false,
-      "image_source_selected": "fallback"
+      "image_source_selected": "website"
     },
     {
       "id": "salon-de-arte-textil-2024-2025",
@@ -2964,7 +2821,7 @@
       "public_visibility_notes": [],
       "source_website_url": "https://buenosaires.gob.ar/museosivori/exposiciones-en-el-museo-sivori",
       "source_instagram_url": "",
-      "last_checked_at": "2026-04-23",
+      "last_checked_at": "2026-04-24",
       "confidence_score": 0.88,
       "needs_review": false,
       "review_notes": [],
@@ -2973,7 +2830,7 @@
       "published_summary": "Registro público cargado desde fuente pública confiable.",
       "fuente_exhibicion": "web oficial",
       "fuente_imagen": "web oficial",
-      "fecha_ultima_revision": "2026-04-23",
+      "fecha_ultima_revision": "2026-04-24",
       "conflicto_detectado": false,
       "image_source_selected": "website"
     },
@@ -2998,7 +2855,7 @@
       "public_visibility_notes": [],
       "source_website_url": "https://buenosaires.gob.ar/museosivori/exposiciones-en-el-museo-sivori",
       "source_instagram_url": "",
-      "last_checked_at": "2026-04-23",
+      "last_checked_at": "2026-04-24",
       "confidence_score": 0.88,
       "needs_review": false,
       "review_notes": [],
@@ -3007,7 +2864,7 @@
       "published_summary": "Registro público cargado desde fuente pública confiable.",
       "fuente_exhibicion": "web oficial",
       "fuente_imagen": "web oficial",
-      "fecha_ultima_revision": "2026-04-23",
+      "fecha_ultima_revision": "2026-04-24",
       "conflicto_detectado": false,
       "image_source_selected": "website"
     },
@@ -3031,7 +2888,7 @@
       "public_visibility_notes": [],
       "source_website_url": "https://buenosaires.gob.ar/cultura/museos/museojosehernandez/bioartesanias-el-futuro-ya-llego",
       "source_instagram_url": "",
-      "last_checked_at": "2026-04-23",
+      "last_checked_at": "2026-04-24",
       "confidence_score": 0.88,
       "needs_review": false,
       "review_notes": [],
@@ -3040,7 +2897,7 @@
       "published_summary": "Registro público cargado desde fuente pública confiable.",
       "fuente_exhibicion": "web oficial",
       "fuente_imagen": "web oficial",
-      "fecha_ultima_revision": "2026-04-23",
+      "fecha_ultima_revision": "2026-04-24",
       "conflicto_detectado": false,
       "image_source_selected": "website"
     },
@@ -3058,13 +2915,13 @@
       "description": "Selección de esculturas de la colección del Palais presentada en la Manzana de las Luces.",
       "status": "current",
       "featured_rank": 88,
-      "image_url": "https://static.buenosaires.gob.ar/sites/default/files/2026-03/DSC_5514.JPG",
+      "image_url": "https://palaisdeglace.cultura.gob.ar/media/uploads/site-37/destacados/.thumbnails/inercia_10-2.jpeg/inercia_10-2-1500x0-no-upscale.jpeg",
       "public_visible": true,
       "public_visibility_status": "publicada",
       "public_visibility_notes": [],
       "source_website_url": "https://palaisdeglace.cultura.gob.ar/exhibiciones/",
       "source_instagram_url": "",
-      "last_checked_at": "2026-04-23",
+      "last_checked_at": "2026-04-24",
       "confidence_score": 0.88,
       "needs_review": false,
       "review_notes": [],
@@ -3073,7 +2930,7 @@
       "published_summary": "Registro público cargado desde fuente pública confiable.",
       "fuente_exhibicion": "web oficial",
       "fuente_imagen": "web oficial",
-      "fecha_ultima_revision": "2026-04-23",
+      "fecha_ultima_revision": "2026-04-24",
       "conflicto_detectado": false,
       "image_source_selected": "website"
     },
@@ -3097,7 +2954,7 @@
       "public_visibility_notes": [],
       "source_website_url": "https://www.bellasartes.gob.ar/exhibiciones/",
       "source_instagram_url": "",
-      "last_checked_at": "2026-04-23",
+      "last_checked_at": "2026-04-24",
       "confidence_score": 0.88,
       "needs_review": false,
       "review_notes": [],
@@ -3106,7 +2963,7 @@
       "published_summary": "Registro público cargado desde fuente pública confiable.",
       "fuente_exhibicion": "web oficial",
       "fuente_imagen": "web oficial",
-      "fecha_ultima_revision": "2026-04-23",
+      "fecha_ultima_revision": "2026-04-24",
       "conflicto_detectado": false,
       "image_source_selected": "website"
     }
@@ -3494,6 +3351,6 @@
       "Piedras"
     ],
     "seed_note": "Base curada de VoyVeo reconstruida con galerías privadas, museos de arte y exhibiciones actuales, recientes o próximas a partir de fuentes públicas confiables.",
-    "last_checked_at": "2026-04-23"
+    "last_checked_at": "2026-04-24"
   }
 }
