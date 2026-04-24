@@ -68,7 +68,7 @@
       "website": "https://hachegaleria.com/",
       "instagram": "https://www.instagram.com/hachegaleria/",
       "description": "Galería dedicada al arte contemporáneo latinoamericano, con una programación sólida de muestras, ferias y conversaciones.",
-      "image_url": "https://hachegaleria.com/wp-content/uploads/2021/08/Leila-Tschopp.-La-casa-de-fuego-La-casa-en-llamas-curaduria-Fernanda-Pinta.-Hache-Galería-Buenos-Aires-Argentina-2021.-Fotografía-Ignacio-Iasparra_23.jpg",
+      "image_url": "https://hachegaleria.com/wp-content/uploads/2021/08/Leila-Tschopp.-La-casa-de-fuego-La-casa-en-llamas-curaduria-Fernanda-Pinta.-Hache-Galeri%CC%81a-Buenos-Aires-Argentina-2021.-Fotografi%CC%81a-Ignacio-Iasparra_01-1024x672.jpg",
       "hours": "Lunes a viernes de 14 a 19 h",
       "weekly_hours": {
         "monday": [
@@ -655,7 +655,7 @@
       "website": "https://www.centrodeedicion.com/",
       "instagram": "https://www.instagram.com/centrodeedicion/",
       "description": "Taller-galería especializado en litografía y gráfica contemporánea, con un perfil único dentro del circuito local.",
-      "image_url": "https://static.wixstatic.com/media/557eff_4899240ebfc3460db2cd8b35dfb00982~mv2.jpg/v1/fit/w_480",
+      "image_url": "https://static.wixstatic.com/media/22631f_94382c1c79ae4714b2d87473573a4db2~mv2.jpg/v1/fit/w_307%2Ch_306%2Cq_75%2Cenc_avif%2Cquality_auto/22631f_94382c1c79ae4714b2d87473573a4db2~mv2.jpg",
       "hours": "Lunes a viernes de 9 a 16 h, con cita previa",
       "weekly_hours": {
         "monday": [
@@ -1756,7 +1756,7 @@
       "website": "https://buenosaires.gob.ar/cultura/museos/museojosehernandez",
       "instagram": "",
       "description": "Museo público dedicado al arte popular argentino, con muestras que conectan tradición artesanal y prácticas contemporáneas.",
-      "image_url": "https://static.buenosaires.gob.ar/sites/default/files/2026-03/DSC_5514.JPG",
+      "image_url": "https://static.buenosaires.gob.ar/sites/default/files/inline-images/imagen%20de%20promo%20expo.jpeg",
       "hours": "Lunes, miércoles, jueves y viernes de 11 a 19 h. Sábados, domingos y feriados de 11 a 20 h",
       "weekly_hours": {
         "monday": [
@@ -1950,7 +1950,7 @@
       "description": "Exhibición individual de Gilda Picabea con curaduría de Patrick Greaney en la sede de Hache.",
       "status": "current",
       "featured_rank": 99,
-      "image_url": "https://hachegaleria.com/wp-content/uploads/2021/08/Leila-Tschopp.-La-casa-de-fuego-La-casa-en-llamas-curaduria-Fernanda-Pinta.-Hache-Galería-Buenos-Aires-Argentina-2021.-Fotografía-Ignacio-Iasparra_23.jpg",
+      "image_url": "https://hachegaleria.com/wp-content/uploads/2021/08/Leila-Tschopp.-La-casa-de-fuego-La-casa-en-llamas-curaduria-Fernanda-Pinta.-Hache-Galeri%CC%81a-Buenos-Aires-Argentina-2021.-Fotografi%CC%81a-Ignacio-Iasparra_01-1024x672.jpg",
       "public_visible": true,
       "public_visibility_status": "publicada",
       "public_visibility_notes": [],
@@ -2288,7 +2288,7 @@
       "description": "Selección reciente de obra gráfica y litográfica difundida por el Centro de Edición en ferias y canales públicos.",
       "status": "current",
       "featured_rank": 63,
-      "image_url": "https://static.wixstatic.com/media/557eff_4899240ebfc3460db2cd8b35dfb00982~mv2.jpg/v1/fit/w_480",
+      "image_url": "https://static.wixstatic.com/media/22631f_94382c1c79ae4714b2d87473573a4db2~mv2.jpg/v1/fit/w_307%2Ch_306%2Cq_75%2Cenc_avif%2Cquality_auto/22631f_94382c1c79ae4714b2d87473573a4db2~mv2.jpg",
       "public_visible": true,
       "public_visibility_status": "publicada",
       "public_visibility_notes": [],
@@ -2882,7 +2882,7 @@
       "description": "Exhibición sobre biomateriales, sustentabilidad y arte popular contemporáneo en el MAP.",
       "status": "current",
       "featured_rank": 79,
-      "image_url": "https://static.buenosaires.gob.ar/sites/default/files/2026-03/DSC_5514.JPG",
+      "image_url": "https://static.buenosaires.gob.ar/sites/default/files/inline-images/imagen%20de%20promo%20expo.jpeg",
       "public_visible": true,
       "public_visibility_status": "publicada",
       "public_visibility_notes": [],
