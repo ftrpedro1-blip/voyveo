@@ -1,4 +1,4 @@
-import { createServer } from "node:http";
+﻿import { createServer } from "node:http";
 import { readFile, writeFile } from "node:fs/promises";
 import { extname, join, normalize } from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
@@ -24,7 +24,14 @@ const indexHtml = `<!doctype html>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Voy Veo</title>
+    <title>VoyVeo</title>
+    <meta name="description" content="Guía visual de arte contemporáneo en Buenos Aires." />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="preconnect" href="https://api.fontshare.com" />
+    <link rel="stylesheet" href="https://api.fontshare.com/v2/css?f[]=general-sans@400,500,600,700&display=swap" />
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <link rel="stylesheet" href="/styles.css" />
   </head>
@@ -33,8 +40,8 @@ const indexHtml = `<!doctype html>
     <div class="device">
       <header class="appHeader">
         <button class="brandPill" data-route="home" aria-label="Ir al inicio">
-          <span class="brandMark" aria-hidden="true"><i></i><b></b></span>
-          <strong>Voy Veo</strong>
+          <span class="brandMark" aria-hidden="true"><img class="brandGlyph" src="/brand/logo-mark.svg" alt="" /></span>
+          <strong>VoyVeo</strong>
         </button>
         <button class="locationPill" type="button" aria-label="Ciudad actual: Buenos Aires">
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s6-5.2 6-11a6 6 0 0 0-12 0c0 5.8 6 11 6 11z"/><circle cx="12" cy="10" r="2"/></svg>
@@ -47,8 +54,8 @@ const indexHtml = `<!doctype html>
       <main id="app" tabindex="-1"></main>
       <nav class="tabBar" aria-label="Navegación principal">
         <button data-route="home"></button>
-        <button data-route="list"></button>
         <button data-route="map"></button>
+        <button data-route="list"></button>
       </nav>
     </div>
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -211,6 +218,6 @@ if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) 
   const server = createPreviewServer();
 
   server.listen(defaultPort, () => {
-    console.log(`Voy Veo preview running at http://localhost:${defaultPort}`);
+    console.log(`VoyVeo preview running at http://localhost:${defaultPort}`);
   });
 }

@@ -17,7 +17,7 @@ if (!response.ok) {
   throw new Error(`Expected 200, received ${response.status}`);
 }
 
-if (!body.includes("Voy Veo")) {
+if (!body.includes("VoyVeo")) {
   throw new Error("Preview HTML did not include the expected title.");
 }
 

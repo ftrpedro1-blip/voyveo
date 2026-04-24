@@ -1,4 +1,7 @@
 artifacts/
+.next/
+node_modules/
 cloudflared.exe
 cloudflared*.log
 *.log
+*.pid

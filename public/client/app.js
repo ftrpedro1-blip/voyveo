@@ -66,7 +66,7 @@ function imageBlock(url, label = "VoyVeo", priority = false) {
         fetchpriority="${priority ? "high" : "auto"}"
         decoding="async"
         onload="this.parentElement.classList.add('imageLoaded')"
-        onerror="this.parentElement.classList.add('imageFallbackOnly'); this.remove()"
+        onerror="this.parentElement.classList.add('imageFallbackOnly'); this.removeAttribute('src'); this.alt=''"
       >
     </div>`;
 }
@@ -227,7 +227,7 @@ function hoursMetaMarkup(gallery) {
       <strong>${escapeHtml(gallery.hours || "Verificar antes de visitar")}</strong>
     </div>
     <div>
-      <span>Ultima verificacion</span>
+      <span>Última verificación</span>
       <strong>${escapeHtml(formatReviewDate(gallery.hours_last_checked_at || gallery.fecha_ultima_revision || gallery.last_checked_at))}</strong>
     </div>`;
 }
@@ -316,16 +316,16 @@ function visibleExhibitions(status = state.agendaStatus) {
 function featuredExhibitions() {
   const editorialOrder = new Map([
     ["cassia-house", 0],
-    ["nora-fisch", 1],
-    ["barro", 2],
-    ["mnba", 3],
-    ["moderno", 4],
-    ["sivori", 5],
-    ["jose-hernandez", 6],
-    ["gachi-prieto", 7],
+    ["hache", 1],
+    ["nora-fisch", 2],
+    ["ruth-benzacar", 3],
+    ["barro", 4],
+    ["gachi-prieto", 5],
+    ["moderno", 6],
+    ["jose-hernandez", 7],
     ["piedras", 8],
-    ["ruth-benzacar", 9],
-    ["hache", 10]
+    ["sivori", 9],
+    ["mnba", 10]
   ]);
   const ranked = [...state.db.exhibitions]
     .filter(isPublicExhibition)

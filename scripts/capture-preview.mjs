@@ -47,13 +47,27 @@ for (const viewport of viewports) {
     const hasHorizontalOverflow = await page.evaluate(() => document.documentElement.scrollWidth > window.innerWidth + 1);
     if (hasHorizontalOverflow) issues.push(`${viewport.name}/${routeName}: horizontal overflow`);
 
-    const clippedButtons = await page.evaluate(() =>
-      [...document.querySelectorAll("button, a")].filter((element) => {
-        const rect = element.getBoundingClientRect();
-        return rect.width > 0 && rect.height > 0 && (rect.left < -1 || rect.right > window.innerWidth + 1);
-      }).length
+    const clippedDetails = await page.evaluate(() =>
+      [...document.querySelectorAll("button, a")]
+        .map((element) => {
+          const rect = element.getBoundingClientRect();
+          return {
+            className: String(element.className || ""),
+            left: Math.round(rect.left),
+            right: Math.round(rect.right),
+            text: String(element.textContent || "").trim().slice(0, 80),
+            width: Math.round(rect.width)
+          };
+        })
+        .filter((element) => {
+          const rect = { left: element.left, right: element.right, width: element.width, height: 1 };
+          return rect.width > 0 && rect.height > 0 && (rect.left < -1 || rect.right > window.innerWidth + 1);
+        })
     );
-    if (clippedButtons) issues.push(`${viewport.name}/${routeName}: ${clippedButtons} clipped interactive elements`);
+    const clippedButtons = clippedDetails.length;
+    if (clippedButtons) {
+      issues.push(`${viewport.name}/${routeName}: ${clippedButtons} clipped interactive elements ${JSON.stringify(clippedDetails)}`);
+    }
 
     if (routeName === "map") {
       await page.waitForTimeout(700);

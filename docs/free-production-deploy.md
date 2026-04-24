@@ -1,6 +1,6 @@
-# Voy Veo Free Production Deploy
+﻿# VoyVeo Free Production Deploy
 
-Voy Veo must stay free in this beta phase. Do not add Mapbox, Google Maps Platform API keys, paid image CDNs, paid scraping services, or any provider that can create automatic charges.
+VoyVeo must stay free in this beta phase. Do not add Mapbox, Google Maps Platform API keys, paid image CDNs, paid scraping services, or any provider that can create automatic charges.
 
 ## Free Services Used
 

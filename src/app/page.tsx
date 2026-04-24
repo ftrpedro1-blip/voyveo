@@ -1,4 +1,4 @@
-import Script from "next/script";
+﻿import Script from "next/script";
 
 export default function HomePage() {
   const mapConfig = {
@@ -19,10 +19,9 @@ export default function HomePage() {
         <header className="appHeader">
           <button className="brandPill" data-route="home" aria-label="Ir al inicio">
             <span className="brandMark" aria-hidden="true">
-              <i />
-              <b />
+              <img className="brandGlyph" src="/brand/logo-mark.svg" alt="" />
             </span>
-            <strong>Voy Veo</strong>
+            <strong>VoyVeo</strong>
           </button>
           <button className="locationPill" type="button" aria-label="Ciudad actual: Buenos Aires">
             <svg viewBox="0 0 24 24" aria-hidden="true">
@@ -38,8 +37,8 @@ export default function HomePage() {
         <main id="app" tabIndex={-1} />
         <nav className="tabBar" aria-label="Navegación principal">
           <button data-route="home" />
-          <button data-route="list" />
           <button data-route="map" />
+          <button data-route="list" />
         </nav>
       </div>
       <Script src="/client/app.js" type="module" strategy="afterInteractive" />

@@ -1,4 +1,4 @@
-# Voy Veo
+# VoyVeo
 
 Mobile-first web app for discovering current exhibitions, gallery and museum info, opening hours, and the Buenos Aires art map.
 
@@ -49,7 +49,7 @@ The QA runner checks `320`, `360`, `390`, `430`, and desktop widths, including n
 
 ## Data Rules
 
-Voy Veo stores source traceability per record:
+VoyVeo stores source traceability per record:
 
 - `fuente_exhibicion`
 - `fuente_horario`
@@ -62,7 +62,7 @@ Rules:
 
 1. Exhibitions, dates, and artists: official website wins conflicts; Instagram complements; uncertain data becomes `Por confirmar`.
 2. Hours and address: official website first, Instagram as support, Google Maps public pages only as manual reference, OpenStreetMap/Nominatim for coordinates, uncertain hours become `Horario sujeto a confirmación`.
-3. Images: official website, then Instagram, then public/press sources, then Voy Veo fallback.
+3. Images: official website, then Instagram, then public/press sources, then VoyVeo fallback.
 
 ## Production Deploy Checklist
 
@@ -85,7 +85,7 @@ Cloudflare quick tunnels are local sharing tools only and are ignored from the p
 
 ```text
 src/app/                 Next.js app shell and API routes
-src/app/globals.css      Voy Veo visual system
+src/app/globals.css      VoyVeo visual system
 src/lib/                 Local DB helpers
 public/client/           Current mobile client app module
 data/voy-veo-db.json     Beta database with source/audit fields

@@ -1,4 +1,4 @@
-# Voy Veo Architecture
+# VoyVeo Architecture
 
 ## Product Shape
 
